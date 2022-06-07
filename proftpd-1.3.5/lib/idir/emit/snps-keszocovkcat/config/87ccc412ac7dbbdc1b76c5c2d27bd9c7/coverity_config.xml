@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "coverity_config.dtd">
+<coverity>
+<!-- Version 2021.9.0 -->
+    <cit_version>1</cit_version>
+    <config>
+      <include>$CONFIGDIR$/clangcc-config-0/coverity_config.xml</include>
+      <include>$CONFIGDIR$/clangcxx-config-0/coverity_config.xml</include>
+      <include>$CONFIGDIR$/clangcxxcc-config-0/coverity_config.xml</include>
+      <include>$CONFIGDIR$/clangobjc-config-0/coverity_config.xml</include>
+      <include>$CONFIGDIR$/clangobjcxx-config-0/coverity_config.xml</include>
+      <include>$CONFIGDIR$/clangcxx-config-1/coverity_config.xml</include>
+      <include>$CONFIGDIR$/clangcxxcc-config-1/coverity_config.xml</include>
+      <include>$CONFIGDIR$/clangobjc-config-1/coverity_config.xml</include>
+      <include>$CONFIGDIR$/clangobjcxx-config-1/coverity_config.xml</include>
+    </config>
+</coverity>
+

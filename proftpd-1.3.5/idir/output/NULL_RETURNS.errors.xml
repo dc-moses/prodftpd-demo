@@ -1,0 +1,937 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NULL_RETURNS</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>return_value</subtype>
+<template>null_returns_multievent_v1</template>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_core.c</file>
+<function>core_sess_init</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{c}}}}}}</description>
+<line>5813</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{c != NULL}}}}}}</description>
+<line>5820</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{timeout_idle}}}}}}</description>
+<line>5826</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{c != NULL}}}}}}</description>
+<line>5833</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{debug_level != NULL}}}}}}</description>
+<line>5842</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{c != NULL}}}}}}</description>
+<line>5847</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{c}}}}}}</description>
+<line>5863</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{pr_env_set(session.pool, c-&gt;argv[0], c-&gt;argv[1]) &lt; 0}}}}}}</description>
+<line>5864</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>else_branch</tag>
+<description>{CovLStrv2{{t{Reached else branch.}}}}</description>
+<line>5868</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop</tag>
+<description>{CovLStrv2{{t{Jumping back to the beginning of the loop.}}}}</description>
+<line>5873</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop_begin</tag>
+<description>{CovLStrv2{{t{Jumped back to beginning of loop.}}}}</description>
+<line>5863</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{c}}}}}}</description>
+<line>5863</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{pr_env_set(session.pool, c-&gt;argv[0], c-&gt;argv[1]) &lt; 0}}}}}}</description>
+<line>5864</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>5868</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>5870</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop</tag>
+<description>{CovLStrv2{{t{Jumping back to the beginning of the loop.}}}}</description>
+<line>5873</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop_begin</tag>
+<description>{CovLStrv2{{t{Jumped back to beginning of loop.}}}}</description>
+<line>5863</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{c}}}}}}</description>
+<line>5863</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>loop_end</tag>
+<description>{CovLStrv2{{t{Reached end of loop.}}}}</description>
+<line>5873</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{c}}}}}}</description>
+<line>5878</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{pr_env_unset(session.pool, c-&gt;argv[0]) &lt; 0}}}}}}</description>
+<line>5879</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>else_branch</tag>
+<description>{CovLStrv2{{t{Reached else branch.}}}}</description>
+<line>5883</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop</tag>
+<description>{CovLStrv2{{t{Jumping back to the beginning of the loop.}}}}</description>
+<line>5888</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop_begin</tag>
+<description>{CovLStrv2{{t{Jumped back to beginning of loop.}}}}</description>
+<line>5878</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{c}}}}}}</description>
+<line>5878</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{pr_env_unset(session.pool, c-&gt;argv[0]) &lt; 0}}}}}}</description>
+<line>5879</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>5883</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>5885</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop</tag>
+<description>{CovLStrv2{{t{Jumping back to the beginning of the loop.}}}}</description>
+<line>5888</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop_begin</tag>
+<description>{CovLStrv2{{t{Jumped back to beginning of loop.}}}}</description>
+<line>5878</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{c}}}}}}</description>
+<line>5878</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>loop_end</tag>
+<description>{CovLStrv2{{t{Reached end of loop.}}}}</description>
+<line>5888</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{c != NULL}}}}}}</description>
+<line>5895</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{i &lt; c-&gt;argc}}}}}}</description>
+<line>5898</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>returned_null</tag>
+<description>{CovLStrv2{{t{{0} returns {code{nullptr}} (checked {1} out of {2} times).}{{code{strchr}}}{59}{65}}}}</description>
+<line>5902</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{1}}{t{{0} has its value checked in {1}.}{{code{strchr(pattern, 92)}}}{{code{strchr(pattern, 92) == NULL}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/glibc-glob.c</file>
+<line>1331</line>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{2}}{t{{0} has its value checked in {1}.}{{code{strchr(cp, 10)}}}{{code{strchr(cp, 10)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/pwgrent.c</file>
+<line>131</line>
+</event>
+<event>
+<event_set>3</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{3}}{t{{0} has its value checked in {1}.}{{code{strchr(fmt, 115)}}}{{code{strchr(fmt, 115)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c</file>
+<line>1067</line>
+</event>
+<event>
+<event_set>4</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{4}}{t{{0} has its value checked in {1}.}{{code{strchr(tpl_fmt_chars, c)}}}{{code{strchr(tpl_fmt_chars, c) == NULL}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c</file>
+<line>1193</line>
+</event>
+<event>
+<event_set>5</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{5}}{t{{0} has its value checked in {1}.}{{code{strchr(dir, 42)}}}{{code{strchr(dir, 42)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_auth.c</file>
+<line>2938</line>
+</event>
+<event>
+<tag>var_assigned</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {code{nullptr}} return value from {1}.}{{code{ptr}}}{{code{strchr}}}}}}</description>
+<line>5902</line>
+</event>
+<event>
+<main>true</main>
+<tag>dereference</tag>
+<description>{CovLStrv2{{t{Dereferencing {0}, which is known to be {code{nullptr}}.}{{code{ptr}}}}}}</description>
+<line>5904</line>
+</event>
+<extra>strchr</extra>
+<subcategory>none</subcategory>
+<eventSetCaptions>
+<eventSetCaption>Call to null-returning function</eventSetCaption>
+<eventSetCaption>Examples where return value was checked for null</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NULL_RETURNS</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>return_value</subtype>
+<template>null_returns_multievent_v1</template>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_core.c</file>
+<function>set_allowdenyusergroupclass</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{!check_context(cmd, 8 /* 1 &lt;&lt; 3 */)}}}}}}</description>
+<line>2671</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>2671</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{cmd-&gt;argc &lt; 2}}}}}}</description>
+<line>2673</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>2674</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{strncmp(cmd-&gt;argv[0], &quot;AllowClass&quot;, 11) == 0}}}}}}</description>
+<line>2679</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>2686</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>2688</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{cmd-&gt;argc &gt; 2}}}}}}</description>
+<line>2690</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{strcasecmp(cmd-&gt;argv[1], &quot;AND&quot;) == 0}}}}}}</description>
+<line>2694</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>2699</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>2741</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>2743</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>2746</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>returned_null</tag>
+<description>{CovLStrv2{{t{{0} returns {code{nullptr}} (checked {1} out of {2} times).}{{code{pr_expr_create}}}{6}{7}}}}</description>
+<line>2748</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/expr.c</file>
+<function>pr_expr_create</function>
+<key>8c3dc75a9d8636054e282d4e1d315fc1</key>
+<id>2</id>
+</model_ptr>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>example_assign</tag>
+<description>{CovLStrv2{{t{Example {0}: }{1}}{t{Assigning: {0} = return value from {1}.}{{code{acl}}}{{code{pr_expr_create(cmd-&gt;tmp_pool, &amp;argc, argv)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_auth.c</file>
+<line>2945</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0} (cont.): }{1}}{t{{0} has its value checked in {1}.}{{code{acl}}}{{code{acl}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_auth.c</file>
+<line>2954</line>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>example_assign</tag>
+<description>{CovLStrv2{{t{Example {0}: }{2}}{t{Assigning: {0} = return value from {1}.}{{code{acl}}}{{code{pr_expr_create(cmd-&gt;tmp_pool, &amp;argc, argv)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_auth.c</file>
+<line>2903</line>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0} (cont.): }{2}}{t{{0} has its value checked in {1}.}{{code{acl}}}{{code{acl}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_auth.c</file>
+<line>2912</line>
+</event>
+<event>
+<event_set>3</event_set>
+<tag>example_assign</tag>
+<description>{CovLStrv2{{t{Example {0}: }{3}}{t{Assigning: {0} = return value from {1}.}{{code{acl}}}{{code{pr_expr_create(cmd-&gt;tmp_pool, &amp;argc, argv)}}}}}}</description>
+<line>2225</line>
+</event>
+<event>
+<event_set>3</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0} (cont.): }{3}}{t{{0} has its value checked in {1}.}{{code{acl}}}{{code{acl}}}}}}</description>
+<line>2257</line>
+</event>
+<event>
+<event_set>4</event_set>
+<tag>example_assign</tag>
+<description>{CovLStrv2{{t{Example {0}: }{4}}{t{Assigning: {0} = return value from {1}.}{{code{acl}}}{{code{pr_expr_create(cmd-&gt;tmp_pool, &amp;argc, argv)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_xfer.c</file>
+<line>2841</line>
+</event>
+<event>
+<event_set>4</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0} (cont.): }{4}}{t{{0} has its value checked in {1}.}{{code{acl}}}{{code{acl}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_xfer.c</file>
+<line>2860</line>
+</event>
+<event>
+<event_set>5</event_set>
+<tag>example_assign</tag>
+<description>{CovLStrv2{{t{Example {0}: }{5}}{t{Assigning: {0} = return value from {1}.}{{code{acl}}}{{code{pr_expr_create(cmd-&gt;tmp_pool, &amp;argc, argv)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_xfer.c</file>
+<line>3170</line>
+</event>
+<event>
+<event_set>5</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0} (cont.): }{5}}{t{{0} has its value checked in {1}.}{{code{acl}}}{{code{acl}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_xfer.c</file>
+<line>3199</line>
+</event>
+<event>
+<tag>var_assigned</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {code{nullptr}} return value from {1}.}{{code{acl}}}{{code{pr_expr_create}}}}}}</description>
+<line>2748</line>
+</event>
+<event>
+<main>true</main>
+<tag>dereference</tag>
+<description>{CovLStrv2{{t{Dereferencing {0}, which is known to be {code{nullptr}}.}{{code{acl}}}}}}</description>
+<line>2752</line>
+</event>
+<extra>pr_expr_create</extra>
+<subcategory>none</subcategory>
+<eventSetCaptions>
+<eventSetCaption>Call to null-returning function</eventSetCaption>
+<eventSetCaption>Examples where return value was checked for null</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NULL_RETURNS</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>return_value</subtype>
+<template>null_returns_multievent_v1</template>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_log.c</file>
+<function>log_sess_init</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{serverlog_name != NULL}}}}}}</description>
+<line>2079</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>else_branch</tag>
+<description>{CovLStrv2{{t{Reached else branch.}}}}</description>
+<line>2103</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{c != NULL}}}}}}</description>
+<line>2107</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>2152</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{lf}}}}}}</description>
+<line>2158</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{lf-&gt;lf_fd == -1}}}}}}</description>
+<line>2159</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{strncasecmp(lf-&gt;lf_filename, &quot;syslog:&quot;, 7) != 0}}}}}}</description>
+<line>2162</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{res &lt; 0}}}}}}</description>
+<line>2175</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>2194</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>2196</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>2201</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop</tag>
+<description>{CovLStrv2{{t{Jumping back to the beginning of the loop.}}}}</description>
+<line>2203</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop_begin</tag>
+<description>{CovLStrv2{{t{Jumped back to beginning of loop.}}}}</description>
+<line>2158</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{lf}}}}}}</description>
+<line>2158</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{lf-&gt;lf_fd == -1}}}}}}</description>
+<line>2159</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{strncasecmp(lf-&gt;lf_filename, &quot;syslog:&quot;, 7) != 0}}}}}}</description>
+<line>2162</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>else_branch</tag>
+<description>{CovLStrv2{{t{Reached else branch.}}}}</description>
+<line>2196</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>returned_null</tag>
+<description>{CovLStrv2{{t{{0} returns {code{nullptr}} (checked {1} out of {2} times).}{{code{strchr}}}{59}{65}}}}</description>
+<line>2197</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{1}}{t{{0} has its value checked in {1}.}{{code{strchr(pattern, 92)}}}{{code{strchr(pattern, 92) == NULL}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/glibc-glob.c</file>
+<line>1331</line>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{2}}{t{{0} has its value checked in {1}.}{{code{strchr(cp, 10)}}}{{code{strchr(cp, 10)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/pwgrent.c</file>
+<line>131</line>
+</event>
+<event>
+<event_set>3</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{3}}{t{{0} has its value checked in {1}.}{{code{strchr(fmt, 115)}}}{{code{strchr(fmt, 115)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c</file>
+<line>1067</line>
+</event>
+<event>
+<event_set>4</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{4}}{t{{0} has its value checked in {1}.}{{code{strchr(tpl_fmt_chars, c)}}}{{code{strchr(tpl_fmt_chars, c) == NULL}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c</file>
+<line>1193</line>
+</event>
+<event>
+<event_set>5</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{5}}{t{{0} has its value checked in {1}.}{{code{strchr(dir, 42)}}}{{code{strchr(dir, 42)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_auth.c</file>
+<line>2938</line>
+</event>
+<event>
+<tag>var_assigned</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {code{nullptr}} return value from {1}.}{{code{tmp}}}{{code{strchr}}}}}}</description>
+<line>2197</line>
+</event>
+<event>
+<main>true</main>
+<tag>dereference</tag>
+<description>{CovLStrv2{{t{Incrementing a pointer which might be null: {0}.}{{code{tmp}}}}}}</description>
+<line>2199</line>
+</event>
+<extra>strchr</extra>
+<subcategory>none</subcategory>
+<eventSetCaptions>
+<eventSetCaption>Call to null-returning function</eventSetCaption>
+<eventSetCaption>Examples where return value was checked for null</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NULL_RETURNS</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>return_value</subtype>
+<template>null_returns_multievent_v1</template>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_core.c</file>
+<function>core_post_pass</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{session.anon_config}}}}}}</description>
+<line>5425</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{c != NULL}}}}}}</description>
+<line>5426</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>5445</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{c != NULL}}}}}}</description>
+<line>5450</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{i &lt; c-&gt;argc}}}}}}</description>
+<line>5453</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>returned_null</tag>
+<description>{CovLStrv2{{t{{0} returns {code{nullptr}} (checked {1} out of {2} times).}{{code{strchr}}}{59}{65}}}}</description>
+<line>5457</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{1}}{t{{0} has its value checked in {1}.}{{code{strchr(pattern, 92)}}}{{code{strchr(pattern, 92) == NULL}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/glibc-glob.c</file>
+<line>1331</line>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{2}}{t{{0} has its value checked in {1}.}{{code{strchr(cp, 10)}}}{{code{strchr(cp, 10)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/pwgrent.c</file>
+<line>131</line>
+</event>
+<event>
+<event_set>3</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{3}}{t{{0} has its value checked in {1}.}{{code{strchr(fmt, 115)}}}{{code{strchr(fmt, 115)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c</file>
+<line>1067</line>
+</event>
+<event>
+<event_set>4</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{4}}{t{{0} has its value checked in {1}.}{{code{strchr(tpl_fmt_chars, c)}}}{{code{strchr(tpl_fmt_chars, c) == NULL}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c</file>
+<line>1193</line>
+</event>
+<event>
+<event_set>5</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{5}}{t{{0} has its value checked in {1}.}{{code{strchr(dir, 42)}}}{{code{strchr(dir, 42)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_auth.c</file>
+<line>2938</line>
+</event>
+<event>
+<tag>var_assigned</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {code{nullptr}} return value from {1}.}{{code{ptr}}}{{code{strchr}}}}}}</description>
+<line>5457</line>
+</event>
+<event>
+<main>true</main>
+<tag>dereference</tag>
+<description>{CovLStrv2{{t{Dereferencing {0}, which is known to be {code{nullptr}}.}{{code{ptr}}}}}}</description>
+<line>5459</line>
+</event>
+<extra>strchr</extra>
+<subcategory>none</subcategory>
+<eventSetCaptions>
+<eventSetCaption>Call to null-returning function</eventSetCaption>
+<eventSetCaption>Examples where return value was checked for null</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NULL_RETURNS</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>return_value</subtype>
+<template>null_returns_multievent_v1</template>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_log.c</file>
+<function>set_extendedlog</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{!check_context(cmd, 85 /* (((1 &lt;&lt; 0) | (1 &lt;&lt; 4)) | (1 &lt;&lt; 6)) | (1 &lt;&lt; 2) */)}}}}}}</description>
+<line>536</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>536</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{argc &lt; 2}}}}}}</description>
+<line>540</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>541</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{strncasecmp(cmd-&gt;argv[1], &quot;syslog:&quot;, 7) == 0}}}}}}</description>
+<line>545</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>returned_null</tag>
+<description>{CovLStrv2{{t{{0} returns {code{nullptr}} (checked {1} out of {2} times).}{{code{strchr}}}{59}{65}}}}</description>
+<line>546</line>
+</event>
+<event>
+<event_set>1</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{1}}{t{{0} has its value checked in {1}.}{{code{strchr(pattern, 92)}}}{{code{strchr(pattern, 92) == NULL}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/glibc-glob.c</file>
+<line>1331</line>
+</event>
+<event>
+<event_set>2</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{2}}{t{{0} has its value checked in {1}.}{{code{strchr(cp, 10)}}}{{code{strchr(cp, 10)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/pwgrent.c</file>
+<line>131</line>
+</event>
+<event>
+<event_set>3</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{3}}{t{{0} has its value checked in {1}.}{{code{strchr(fmt, 115)}}}{{code{strchr(fmt, 115)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c</file>
+<line>1067</line>
+</event>
+<event>
+<event_set>4</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{4}}{t{{0} has its value checked in {1}.}{{code{strchr(tpl_fmt_chars, c)}}}{{code{strchr(tpl_fmt_chars, c) == NULL}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c</file>
+<line>1193</line>
+</event>
+<event>
+<event_set>5</event_set>
+<tag>example_checked</tag>
+<description>{CovLStrv2{{t{Example {0}: }{5}}{t{{0} has its value checked in {1}.}{{code{strchr(dir, 42)}}}{{code{strchr(dir, 42)}}}}}}</description>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_auth.c</file>
+<line>2938</line>
+</event>
+<event>
+<tag>var_assigned</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {code{nullptr}} return value from {1}.}{{code{tmp}}}{{code{strchr}}}}}}</description>
+<line>546</line>
+</event>
+<event>
+<main>true</main>
+<tag>dereference</tag>
+<description>{CovLStrv2{{t{Incrementing a pointer which might be null: {0}.}{{code{tmp}}}}}}</description>
+<line>548</line>
+</event>
+<extra>strchr</extra>
+<subcategory>none</subcategory>
+<eventSetCaptions>
+<eventSetCaption>Call to null-returning function</eventSetCaption>
+<eventSetCaption>Examples where return value was checked for null</eventSetCaption>
+</eventSetCaptions>
+</error>

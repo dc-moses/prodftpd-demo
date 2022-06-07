@@ -1,0 +1,178 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>CHECKED_RETURN</checker>
+<type>unchecked_return_value</type>
+<subtype>library_function</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/pr-syslog.c</file>
+<function>pr_openlog</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{ident != NULL}}}}}}</description>
+<line>300</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{facility != 0}}}}}}</description>
+<line>305</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{(facility &amp; -1017 /* ~0x3f8 */) == 0}}}}}}</description>
+<line>305</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{1}}}}}}</description>
+<line>310</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{sockfd == -1}}}}}}</description>
+<line>313</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{log_opts &amp; 8}}}}}}</description>
+<line>320</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{sockfd &lt; 0}}}}}}</description>
+<line>322</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>324</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<main>true</main>
+<tag>check_return</tag>
+<description>{CovLStrv2{{t{Calling {0} without checking return value. This library function may fail and return an error code.}{{code{fcntl(sockfd, 2, 1)}}}}}}</description>
+<line>326</line>
+</event>
+<extra>fcntl</extra>
+<subcategory>library_function</subcategory>
+<eventSetCaptions>
+<eventSetCaption>Unchecked call to function</eventSetCaption>
+</eventSetCaptions>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>CHECKED_RETURN</checker>
+<type>unchecked_return_value</type>
+<subtype>library_function</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/pr-syslog.c</file>
+<function>pr_vsyslog</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{pri &amp; -1024 /* ~(7 | 0x3f8) */}}}}}}</description>
+<line>129</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{((1 &lt;&lt; (pri &amp; 7)) &amp; log_mask) == 0}}}}}}</description>
+<line>133</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>134</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{(pri &amp; 0x3f8) == 0}}}}}}</description>
+<line>137</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{log_ident == NULL}}}}}}</description>
+<line>174</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{buflen &lt; 1024UL /* sizeof (logbuf) */}}}}}}</description>
+<line>181</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{log_ident != NULL}}}}}}</description>
+<line>181</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{buflen &lt; 1023UL /* sizeof (logbuf) - 1 */}}}}}}</description>
+<line>187</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{log_opts &amp; 1}}}}}}</description>
+<line>187</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{buflen &lt; 1023UL /* sizeof (logbuf) - 1 */}}}}}}</description>
+<line>194</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{log_ident != NULL}}}}}}</description>
+<line>194</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{buflen &lt; 1024UL /* sizeof (logbuf) */}}}}}}</description>
+<line>248</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{sock_type == 1}}}}}}</description>
+<line>261</line>
+<path_event></path_event>
+</event>
+<event>
+<main>true</main>
+<tag>check_return</tag>
+<description>{CovLStrv2{{t{Calling {0} without checking return value. This library function may fail and return an error code.}{{code{send(sockfd, logbuf, buflen, 0)}}}}}}</description>
+<line>265</line>
+</event>
+<extra>send</extra>
+<subcategory>library_function</subcategory>
+<eventSetCaptions>
+<eventSetCaption>Unchecked call to function</eventSetCaption>
+</eventSetCaptions>
+</error>

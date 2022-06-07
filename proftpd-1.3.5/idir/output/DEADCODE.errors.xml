@@ -1,0 +1,466 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DEADCODE</checker>
+<type>deadcode</type>
+<subtype>logical_contradiction</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/scoreboard.c</file>
+<function>wlock_scoreboard</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>cond_const</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch. Now the value of {1} is equal to {2}.}{{code{nattempts &lt;= 10U}}}{{code{nattempts}}}{2}}}}</description>
+<line>427</line>
+</event>
+<event>
+<tag>incr</tag>
+<description>{CovLStrv2{{t{Incrementing {0}.}{{code{nattempts}}}}{t{ The value of {0} is now at least {1}.}{{code{nattempts}}}{3}}}}</description>
+<line>426</line>
+</event>
+<event>
+<tag>cond_at_least</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch. Now the value of {1} is at least {2}.}{{code{nattempts &lt;= 10U}}}{{code{nattempts}}}{11}}}}</description>
+<line>427</line>
+</event>
+<event>
+<tag>at_least</tag>
+<description>{CovLStrv2{{t{At condition {0}, the value of {1} must be at least {2}.}{{code{nattempts != 1U}}}{{code{nattempts}}}{11}}}}</description>
+<line>441</line>
+</event>
+<event>
+<tag>dead_error_condition</tag>
+<description>{CovLStrv2{{t{The condition {0} must be true.}{{code{nattempts != 1U}}}}}}</description>
+<line>439</line>
+</event>
+<event>
+<main>true</main>
+<tag>dead_error_line</tag>
+<description>{CovLStrv2{{t{Execution cannot reach the expression {0} inside this statement: {1}.}{{code{&quot;attempt&quot;}}}{{code{pr_trace_msg(&quot;lock&quot;, 9, &quot;un...}}}}}}</description>
+<line>439</line>
+</event>
+<extra>nattempts</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DEADCODE</checker>
+<type>deadcode</type>
+<subtype>logical_contradiction</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/scoreboard.c</file>
+<function>unlock_scoreboard</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>cond_const</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch. Now the value of {1} is equal to {2}.}{{code{nattempts &lt;= 10U}}}{{code{nattempts}}}{2}}}}</description>
+<line>303</line>
+</event>
+<event>
+<tag>incr</tag>
+<description>{CovLStrv2{{t{Incrementing {0}.}{{code{nattempts}}}}{t{ The value of {0} is now at least {1}.}{{code{nattempts}}}{3}}}}</description>
+<line>302</line>
+</event>
+<event>
+<tag>cond_at_least</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch. Now the value of {1} is at least {2}.}{{code{nattempts &lt;= 10U}}}{{code{nattempts}}}{11}}}}</description>
+<line>303</line>
+</event>
+<event>
+<tag>at_least</tag>
+<description>{CovLStrv2{{t{At condition {0}, the value of {1} must be at least {2}.}{{code{nattempts != 1U}}}{{code{nattempts}}}{11}}}}</description>
+<line>318</line>
+</event>
+<event>
+<tag>dead_error_condition</tag>
+<description>{CovLStrv2{{t{The condition {0} must be true.}{{code{nattempts != 1U}}}}}}</description>
+<line>316</line>
+</event>
+<event>
+<main>true</main>
+<tag>dead_error_line</tag>
+<description>{CovLStrv2{{t{Execution cannot reach the expression {0} inside this statement: {1}.}{{code{&quot;attempt&quot;}}}{{code{pr_trace_msg(&quot;lock&quot;, 9, &quot;un...}}}}}}</description>
+<line>316</line>
+</event>
+<extra>nattempts</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DEADCODE</checker>
+<type>deadcode</type>
+<subtype>logical_contradiction</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/scoreboard.c</file>
+<function>rlock_scoreboard</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>cond_const</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch. Now the value of {1} is equal to {2}.}{{code{nattempts &lt;= 10U}}}{{code{nattempts}}}{2}}}}</description>
+<line>181</line>
+</event>
+<event>
+<tag>incr</tag>
+<description>{CovLStrv2{{t{Incrementing {0}.}{{code{nattempts}}}}{t{ The value of {0} is now at least {1}.}{{code{nattempts}}}{3}}}}</description>
+<line>180</line>
+</event>
+<event>
+<tag>cond_at_least</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch. Now the value of {1} is at least {2}.}{{code{nattempts &lt;= 10U}}}{{code{nattempts}}}{11}}}}</description>
+<line>181</line>
+</event>
+<event>
+<tag>at_least</tag>
+<description>{CovLStrv2{{t{At condition {0}, the value of {1} must be at least {2}.}{{code{nattempts != 1U}}}{{code{nattempts}}}{11}}}}</description>
+<line>195</line>
+</event>
+<event>
+<tag>dead_error_condition</tag>
+<description>{CovLStrv2{{t{The condition {0} must be true.}{{code{nattempts != 1U}}}}}}</description>
+<line>193</line>
+</event>
+<event>
+<main>true</main>
+<tag>dead_error_line</tag>
+<description>{CovLStrv2{{t{Execution cannot reach the expression {0} inside this statement: {1}.}{{code{&quot;attempt&quot;}}}{{code{pr_trace_msg(&quot;lock&quot;, 9, &quot;un...}}}}}}</description>
+<line>193</line>
+</event>
+<extra>nattempts</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DEADCODE</checker>
+<type>deadcode</type>
+<subtype>logical_contradiction</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/timers.c</file>
+<function>pr_timer_reset</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>cond_null</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch. Now the value of {1} is {code{nullptr}}.}{{code{t}}}{{code{t}}}}}}</description>
+<line>274</line>
+</event>
+<event>
+<tag>null</tag>
+<description>{CovLStrv2{{t{At condition {0}, the value of {1} must be {code{nullptr}}.}{{code{t}}}{{code{t}}}}}}</description>
+<line>299</line>
+</event>
+<event>
+<tag>dead_error_condition</tag>
+<description>{CovLStrv2{{t{The condition {0} cannot be true.}{{code{t}}}}}}</description>
+<line>299</line>
+</event>
+<event>
+<main>true</main>
+<tag>dead_error_line</tag>
+<description>{CovLStrv2{{t{Execution cannot reach the expression {0} inside this statement: {1}.}{{code{t-&gt;timerno}}}{{code{return t ? t-&gt;timerno : 0;}}}}}}</description>
+<line>299</line>
+</event>
+<extra>t</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DEADCODE</checker>
+<type>deadcode</type>
+<subtype>dead_default_in_switch</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/var.c</file>
+<function>pr_var_set</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>cond_const</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch. Now the value of {1} is equal to {2}.}{{code{vtype != 1}}}{{code{vtype}}}{1}}}}</description>
+<line>167</line>
+</event>
+<event>
+<tag>cond_const</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch. Now the value of {1} is equal to {2}.}{{code{vtype != 2}}}{{code{vtype}}}{2}}}}</description>
+<line>167</line>
+</event>
+<event>
+<tag>between</tag>
+<description>{CovLStrv2{{t{When switching on {0}, the value of {1} must be between {2} and {3}.}{{code{vtype}}}{{code{vtype}}}{1}{2}}}}</description>
+<line>212</line>
+</event>
+<event>
+<tag>dead_error_condition</tag>
+<description>{CovLStrv2{{t{The {code{switch}} governing value {0} cannot reach the {code{default}} case.}{{code{vtype}}}}}}</description>
+<line>212</line>
+</event>
+<event>
+<main>true</main>
+<tag>dead_error_begin</tag>
+<description>{CovLStrv2{{t{Execution cannot reach this statement: {0}.}{{code{default:}}}}}}</description>
+<line>242</line>
+</event>
+<extra>vtype</extra>
+<subcategory>dead_default_in_switch</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DEADCODE</checker>
+<type>deadcode</type>
+<subtype>logical_contradiction</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/event.c</file>
+<function>pr_event_register</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>cond_notnull</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch. Now the value of {1} is not {code{nullptr}}.}{{code{evhi}}}{{code{evhi}}}}}}</description>
+<line>126</line>
+</event>
+<event>
+<tag>assignment</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{evhl}}}{}{{code{evhi}}}}}}</description>
+<line>144</line>
+</event>
+<event>
+<tag>notnull</tag>
+<description>{CovLStrv2{{t{At condition {0}, the value of {1} cannot be {code{nullptr}}.}{{code{evhl != NULL}}}{{code{evhl}}}}}}</description>
+<line>163</line>
+</event>
+<event>
+<tag>dead_error_condition</tag>
+<description>{CovLStrv2{{t{The condition {0} must be true.}{{code{evhl != NULL}}}}}}</description>
+<line>163</line>
+</event>
+<event>
+<main>true</main>
+<tag>dead_error_line</tag>
+<description>{CovLStrv2{{t{Execution cannot reach this statement: {0}.}{{code{evl-&gt;handlers = evh;}}}}}}</description>
+<line>168</line>
+</event>
+<extra>evhl</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DEADCODE</checker>
+<type>deadcode</type>
+<subtype>logical_contradiction</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_xfer.c</file>
+<function>get_hidden_store_path</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>cond_cannot_single</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch. Now the value of {1} cannot be equal to {2}.}{{code{basenamestart}}}{{code{basenamestart}}}{0}}}}</description>
+<line>1032</line>
+</event>
+<event>
+<tag>cannot_single</tag>
+<description>{CovLStrv2{{t{At condition {0}, the value of {1} cannot be equal to {2}.}{{code{basenamestart == 0}}}{{code{basenamestart}}}{0}}}}</description>
+<line>1129</line>
+</event>
+<event>
+<tag>dead_error_condition</tag>
+<description>{CovLStrv2{{t{The condition {0} cannot be true.}{{code{basenamestart == 0}}}}}}</description>
+<line>1129</line>
+</event>
+<event>
+<main>true</main>
+<tag>dead_error_line</tag>
+<description>{CovLStrv2{{t{Execution cannot reach this statement: {0}.}{{code{parent_dir = &quot;/&quot;;}}}}}}</description>
+<line>1130</line>
+</event>
+<extra>basenamestart</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DEADCODE</checker>
+<type>deadcode</type>
+<subtype>effectively_constant</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_auth.c</file>
+<function>auth_count_scoreboard</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>assignment</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{c}}}{}{{code{NULL}}}}}}</description>
+<line>1935</line>
+</event>
+<event>
+<tag>null</tag>
+<description>{CovLStrv2{{t{At condition {0}, the value of {1} must be {code{nullptr}}.}{{code{c}}}{{code{c}}}}}}</description>
+<line>1971</line>
+</event>
+<event>
+<tag>dead_error_condition</tag>
+<description>{CovLStrv2{{t{The condition {0} cannot be true.}{{code{c}}}}}}</description>
+<line>1971</line>
+</event>
+<event>
+<main>true</main>
+<tag>dead_error_line</tag>
+<description>{CovLStrv2{{t{Execution cannot reach the expression {0} inside this statement: {1}.}{{code{c-&gt;config_type == 4}}}{{code{if ((c &amp;&amp; c-&gt;config_type ==...}}}}}}</description>
+<line>1971</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>effectively_constant</tag>
+<description>{CovLStrv2{{t{Local variable {0} is assigned only once, to a constant value, making it effectively constant throughout its scope. If this is not the intent, examine the logic to see if there is a missing assignment that would make {1} not remain constant. Otherwise, declaring {2} as {code{const}} will suppress this defect.}{{code{c}}}{{code{c}}}{{code{c}}}}}}</description>
+<line>1971</line>
+</event>
+<extra>c</extra>
+<subcategory>effectively_constant</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DEADCODE</checker>
+<type>deadcode</type>
+<subtype>effectively_constant</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_auth.c</file>
+<function>auth_count_scoreboard</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>assignment</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{c}}}{}{{code{NULL}}}}}}</description>
+<line>1935</line>
+</event>
+<event>
+<tag>null</tag>
+<description>{CovLStrv2{{t{At condition {0}, the value of {1} must be {code{nullptr}}.}{{code{c}}}{{code{c}}}}}}</description>
+<line>1978</line>
+</event>
+<event>
+<tag>dead_error_condition</tag>
+<description>{CovLStrv2{{t{The condition {0} cannot be true.}{{code{c}}}}}}</description>
+<line>1978</line>
+</event>
+<event>
+<main>true</main>
+<tag>dead_error_line</tag>
+<description>{CovLStrv2{{t{Execution cannot reach the expression {0} inside this statement: {1}.}{{code{c-&gt;config_type == 4}}}{{code{if (c &amp;&amp; c-&gt;config_type == ...}}}}}}</description>
+<line>1978</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>effectively_constant</tag>
+<description>{CovLStrv2{{t{Local variable {0} is assigned only once, to a constant value, making it effectively constant throughout its scope. If this is not the intent, examine the logic to see if there is a missing assignment that would make {1} not remain constant. Otherwise, declaring {2} as {code{const}} will suppress this defect.}{{code{c}}}{{code{c}}}{{code{c}}}}}}</description>
+<line>1978</line>
+</event>
+<extra>c</extra>
+<subcategory>effectively_constant</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DEADCODE</checker>
+<type>deadcode</type>
+<subtype>effectively_constant</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_auth.c</file>
+<function>auth_count_scoreboard</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>assignment</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{c}}}{}{{code{NULL}}}}}}</description>
+<line>1935</line>
+</event>
+<event>
+<tag>null</tag>
+<description>{CovLStrv2{{t{At condition {0}, the value of {1} must be {code{nullptr}}.}{{code{c}}}{{code{c}}}}}}</description>
+<line>1997</line>
+</event>
+<event>
+<tag>dead_error_condition</tag>
+<description>{CovLStrv2{{t{The condition {0} cannot be true.}{{code{c}}}}}}</description>
+<line>1997</line>
+</event>
+<event>
+<main>true</main>
+<tag>dead_error_line</tag>
+<description>{CovLStrv2{{t{Execution cannot reach the expression {0} inside this statement: {1}.}{{code{c-&gt;config_type == 4}}}{{code{if (c &amp;&amp; c-&gt;config_type == ...}}}}}}</description>
+<line>1997</line>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>effectively_constant</tag>
+<description>{CovLStrv2{{t{Local variable {0} is assigned only once, to a constant value, making it effectively constant throughout its scope. If this is not the intent, examine the logic to see if there is a missing assignment that would make {1} not remain constant. Otherwise, declaring {2} as {code{const}} will suppress this defect.}{{code{c}}}{{code{c}}}{{code{c}}}}}}</description>
+<line>1997</line>
+</event>
+<extra>c</extra>
+<subcategory>effectively_constant</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DEADCODE</checker>
+<type>deadcode</type>
+<subtype>logical_contradiction</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_xfer.c</file>
+<function>xfer_stor</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>cond_cannot_single</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch. Now the value of {1} cannot be equal to {2}.}{{code{nbytes_max_store == 0ULL}}}{{code{nbytes_max_store}}}{0}}}}</description>
+<line>1695</line>
+</event>
+<event>
+<tag>cannot_single</tag>
+<description>{CovLStrv2{{t{At condition {0}, the value of {1} cannot be equal to {2}.}{{code{nbytes_max_store == 0LL}}}{{code{nbytes_max_store}}}{0}}}}</description>
+<line>1704</line>
+</event>
+<event>
+<tag>dead_error_condition</tag>
+<description>{CovLStrv2{{t{The condition {0} cannot be true.}{{code{nbytes_max_store == 0LL}}}}}}</description>
+<line>1703</line>
+</event>
+<event>
+<main>true</main>
+<tag>dead_error_line</tag>
+<description>{CovLStrv2{{t{Execution cannot reach the expression {0} inside this statement: {1}.}{{code{pr_log_pri}}}{{code{pr_log_pri(5, &quot;MaxStoreFile...}}}}}}</description>
+<line>1706</line>
+</event>
+<extra>nbytes_max_store</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DEADCODE</checker>
+<type>deadcode</type>
+<subtype>logical_contradiction</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_core.c</file>
+<function>core_rnto</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>cond_const</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch. Now the value of {1} is equal to {2}.}{{code{xerrno != 18}}}{{code{xerrno}}}{18}}}}</description>
+<line>5174</line>
+</event>
+<event>
+<tag>const</tag>
+<description>{CovLStrv2{{t{At condition {0}, the value of {1} must be equal to {2}.}{{code{xerrno == 21}}}{{code{xerrno}}}{18}}}}</description>
+<line>5187</line>
+</event>
+<event>
+<tag>dead_error_condition</tag>
+<description>{CovLStrv2{{t{The condition {0} cannot be true.}{{code{xerrno == 21}}}}}}</description>
+<line>5187</line>
+</event>
+<event>
+<main>true</main>
+<tag>dead_error_begin</tag>
+<description>{CovLStrv2{{t{Execution cannot reach this statement: {0}.}{{code{(void)pr_trace_msg(&quot;fileper...}}}}}}</description>
+<line>5197</line>
+</event>
+<extra>xerrno</extra>
+<subcategory>none</subcategory>
+</error>

@@ -1,0 +1,50 @@
+Translation unit:
+8 -> /Users/dylanm/Projects/proftpd-1.3.5/lib/pr-syslog.c
+cov-emit invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 23
+Translation unit:
+5 -> /Users/dylanm/Projects/proftpd-1.3.5/lib/glibc-glob.c
+cov-emit invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 23
+Translation unit:
+3 -> /Users/dylanm/Projects/proftpd-1.3.5/lib/strsep.c
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 0
+cov-build invocation time (seconds): 23
+Translation unit:
+4 -> /Users/dylanm/Projects/proftpd-1.3.5/lib/vsnprintf.c
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 0
+cov-build invocation time (seconds): 23
+Translation unit:
+2 -> /Users/dylanm/Projects/proftpd-1.3.5/lib/sstrncpy.c
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 0
+cov-build invocation time (seconds): 23
+Translation unit:
+6 -> /Users/dylanm/Projects/proftpd-1.3.5/lib/glibc-hstrerror.c
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 0
+cov-build invocation time (seconds): 23
+Translation unit:
+7 -> /Users/dylanm/Projects/proftpd-1.3.5/lib/glibc-mkstemp.c
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 0
+cov-build invocation time (seconds): 23
+Translation unit:
+1 -> /Users/dylanm/Projects/proftpd-1.3.5/lib/pr_fnmatch.c
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 6
+cov-build invocation time (seconds): 23
+Translation unit:
+9 -> /Users/dylanm/Projects/proftpd-1.3.5/lib/pwgrent.c
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 0
+cov-build invocation time (seconds): 23
+Translation unit:
+10 -> /Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 0
+cov-build invocation time (seconds): 23

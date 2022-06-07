@@ -1,0 +1,28 @@
+cov-analyze --dir idir 
+Analysis summary report:
+------------------------
+Files analyzed                 : 128 Total
+    C++                        : 128
+Total LoC input to cov-analyze : 78586
+Functions analyzed             : 1495
+Classes/structs analyzed       : 136
+Paths analyzed                 : 187411
+Time taken by analysis         : 00:00:15
+Defect occurrences found       : 155 Total
+                                  34 CHECKED_RETURN
+                                   2 CONSTANT_EXPRESSION_RESULT
+                                  12 DEADCODE
+                                  50 FORWARD_NULL
+                                   2 MISSING_BREAK
+                                   6 NEGATIVE_RETURNS
+                                   4 NESTING_INDENT_MISMATCH
+                                   3 NO_EFFECT
+                                   5 NULL_RETURNS
+                                   6 OVERRUN
+                                   5 RESOURCE_LEAK
+                                   1 RETURN_LOCAL
+                                   7 REVERSE_INULL
+                                  15 SIZEOF_MISMATCH
+                                   1 UNINIT
+                                   1 UNREACHABLE
+                                   1 UNUSED_VALUE

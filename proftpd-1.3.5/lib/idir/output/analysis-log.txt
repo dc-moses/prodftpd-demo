@@ -1,0 +1,440 @@
+cmdline: command line: cov-analyze --dir idir 
+cmdline: parsed cmdline: [
+cmdline:   { name: "dir", args: [ "idir" ] },
+cmdline:   { name: "config", args: [ "/Applications/cov-analysis-macosx-2021.9.0/config/coverity_config.xml" ] },
+cmdline: ]
+startup: am_pid=91699
+startup: detected platform: Darwin 20.6.0 x86_64
+startup: target platform: macosx
+startup: Detected 16 logical cpus
+startup: Detected 8 cpu cores
+startup: host name: snps-keszocovkcat
+startup: user name: dylanm
+startup: Analysis version: 2021.9.0 (fd8aadda49 p-2021.9-push-681)
+startup: temp directory: /var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/cov-dylanm/c8e495aa365895d781cb9083baff8dff
+startup: enable_constraint_fpp=0
+startup: current time: 2022-Mar-04 08:20:26
+startup: Detected amount of memory: 33554432kb
+startup: Limiting memory to 30198988kb
+Sigma checker-properties info: Capturing Sigma checker properties...
+Sigma checker-properties info: Command line for sigma /Applications/cov-analysis-macosx-2021.9.0/bin/sigma xx-coverity-integration checker-properties /var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/cov-dylanm/c8e495aa365895d781cb9083baff8dff/sigma-checker-properties.json
+Sigma checker-properties info: Exit status: code 0
+Sigma checker-properties info: Loaded 556 checker properties for Sigma.
+wlink: Identifying web applications
+wlink: Linking web-app archive bytecode
+wlink: Web-app linker scanned 0 web-apps (found: 0 classfiles, 0 jars, and 0 other files)
+wlink: Webapps domains found: 0 Android app domains found: 1
+emitdb: callgraph.cpp:2266 11111111
+emitdb: callgraph.cpp:2296 11000011
+emitdb: callgraph.cpp:2316 11000011
+codexm: Initializing data gathered from CodeXM
+directives: ===== User directives:
+directives: === Language: apex
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: cpp
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: cs
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: cuda
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: fortran
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: go
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: java
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: javascript
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: kotlin
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: objc
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: php
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: python2
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: python3
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: ruby
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: scala
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: swift
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: text-files
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: typescript
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: vb
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+rta: Not running RTA because it doesn't apply to current languages
+emitdb: callgraph.cpp:2325 11000000
+dyncg: N/A or no data
+general: Starting analysis
+dm-access-lib: AM listening for DM at 127.0.0.1:61458
+dm-access-lib: AM starting DM with command line: /Applications/cov-analysis-macosx-2021.9.0/bin/cov-internal-dm --AM-port 61458 --log-file /Users/dylanm/Projects/proftpd-1.3.5/lib/idir/output/distributor.log -j 16 --AW-timeout 36000 /Applications/cov-analysis-macosx-2021.9.0/bin/cov-analyze --worker --message-size-limit 104857600
+dm-access-lib: DM started: dm_pid=91864
+dm-access-lib: AM got connection from DM: (local) 127.0.0.1:61458 - 127.0.0.1:61459 (remote)
+makeWUP: ENABLE_ONLY0
+makeWUP: stat8
+makeWUP: stat9
+makeWUP: stat4
+makeWUP: stat10
+makeWUP: stat5
+makeWUP: stat3
+makeWUP: stat0
+makeWUP: stat11
+makeWUP: stat7
+makeWUP: stat6
+makeWUP: stat2
+makeWUP: stat1
+wurlegend: <phase><n> dw_id wup_bytes dw_ms wur_bytes aw_ms [mem] paths (rest are labeled)
+wur: stat6 10 1073 807 71 2 5 n: batch 6
+wur: stat8 2 30677 867 1051 17 608 nr=16 n: batch 8
+wur: stat10 5 12286 836 745 11 199 nr=3 n: batch 10
+wur: stat1 5 589 0 13 0 1 n: batch 1
+wur: stat11 8 602 764 13 0 1 n: batch 11
+wur: stat5 4 9044 809 757 7 69 nr=6 n: batch 5
+wur: stat2 4 587 0 13 0 1 n: batch 2
+wur: stat0 2 23613 21 2312 20 299 nr=9 n: batch 0
+wur: stat4 3 24999 849 1831 30 1542 nr=19 n: batch 4
+wur: stat7 3 586 0 13 0 1 n: batch 7
+wur: stat9 1 62040 881 2044 46 1138 nr=20 n: batch 9
+wur: stat3 1 8692 4 552 4 58 nr=6 n: batch 3
+makeWUP: stat12
+makeWUP: gen16
+makeWUP: gen17
+makeWUP: gen18
+makeWUP: gen15
+makeWUP: gen10
+makeWUP: gen9
+makeWUP: gen14
+makeWUP: gen11
+makeWUP: gen12
+makeWUP: gen13
+makeWUP: gen8
+makeWUP: gen3
+makeWUP: gen7
+makeWUP: gen6
+makeWUP: gen4
+makeWUP: gen2
+makeWUP: gen5
+makeWUP: gen1
+makeWUP: gen0
+wur: gen14 1 491 1 11 0 0 n: pwdfields in TU 9
+wur: gen11 2 491 1 11 0 0 n: grpfields in TU 9
+wur: gen12 3 490 0 11 0 0 n: members in TU 9
+makeWUP: gen19
+makeWUP: gen67
+makeWUP: gen68
+makeWUP: gen71
+makeWUP: gen72
+makeWUP: gen79
+makeWUP: gen81
+wur: gen71 3 2753 6 1062 4 1 n: tpl_fmt in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen80
+wur: gen72 4 2815 7 1431 5 1 n: tpl_fxlens in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen68 2 2331 8 755 7 2 n: tpl_cpu_bigendian in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen84
+makeWUP: gen69
+makeWUP: gen93
+wur: gen67 1 2460 12 2291 9 4 n: tpl_byteswap in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen94
+makeWUP: gen39
+makeWUP: gen38
+makeWUP: gen42
+wur: gen79 5 2506 15 1211 12 9 n: tpl_find_data_start in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen53
+makeWUP: gen103
+makeWUP: gen74
+makeWUP: gen75
+makeWUP: gen65
+wur: gen84 4 2832 8 1843 8 4 n: tpl_needs_endian_swap in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen85
+makeWUP: gen86
+makeWUP: gen87
+makeWUP: gen77
+makeWUP: gen89
+makeWUP: gen64
+makeWUP: gen100
+makeWUP: gen99
+wur: gen81 3 4835 17 2525 16 10 n: tpl_unmap_file in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen39 8 2296 9 1104 7 2 n: isascii in TU 1
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen40
+wur: gen53 10 2369 10 591 8 1 n: tolower in TU 1
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen78
+makeWUP: gen63
+makeWUP: gen32
+makeWUP: gen58
+makeWUP: gen57
+wur: gen99 10 4104 9 990 9 1 n: tpl_oops in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen41
+makeWUP: gen36
+wur: gen64 3 3299 22 4171 20 8 n: calc_field_addr in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen40 8 3483 16 1534 9 4 n: __istype in TU 1
+wur_diagnostics: No iterators, skipping function
+wur: gen93 1 8168 36 3614 33 30 n: tpl_mmap_file in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen43
+wur: gen78 3 5154 8 666 7 2 n: tpl_fatal in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen41 8 3628 11 2034 11 2 n: __mempcpy in TU 1
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen48
+makeWUP: gen49
+makeWUP: gen50
+makeWUP: gen51
+makeWUP: gen44
+makeWUP: gen45
+makeWUP: gen47
+makeWUP: gen34
+makeWUP: gen31
+makeWUP: gen35
+makeWUP: gen30
+makeWUP: gen29
+makeWUP: gen22
+wur: gen32 10 3708 25 3552 22 7 n: sstrncpy in TU 2
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen61
+wur: gen43 3 2971 6 701 6 2 n: isalnum in TU 1
+wur_diagnostics: No iterators, skipping function
+wur: gen48 8 2954 7 692 6 2 n: isprint in TU 1
+wur_diagnostics: No iterators, skipping function
+wur: gen44 10 2952 6 694 6 2 n: isalpha in TU 1
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen33
+wur: gen29 10 2204 3 333 3 1 n: pr_os_already_has_hstrerror in TU 6
+wur_diagnostics: No iterators, skipping function
+wur: gen49 3 2955 6 689 6 2 n: ispunct in TU 1
+wur_diagnostics: No iterators, skipping function
+wur: gen50 8 2954 5 690 5 2 n: isspace in TU 1
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen20
+makeWUP: gen25
+makeWUP: gen26
+makeWUP: gen24
+makeWUP: gen21
+wur: gen22 3 3692 22 2225 22 4 n: my_realloc in TU 5
+wur_diagnostics: No iterators, skipping function
+wur: gen42 5 3306 100 2687 101 169 n: end_pattern in TU 1
+wur_diagnostics: No iterators, skipping function
+wur: gen63 5 2201 3 333 3 1 n: pr_os_already_has_strsep in TU 3
+wur_diagnostics: No iterators, skipping function
+wur: gen20 3 2538 31 3219 29 53 n: __glob_pattern_p in TU 5
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen23
+wur: gen77 1 4740 77 1777 76 11 n: tpl_extend_backbone in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen21 5 2940 10 1772 10 4 n: collated_compare in TU 5
+wur_diagnostics: No iterators, skipping function
+wur: gen80 2 5985 123 4395 122 313 n: tpl_free_atyp in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen83
+makeWUP: gen82
+wur: gen75 4 6211 150 3883 150 191 n: tpl_ser_osz in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen61 8 6905 102 1890 99 121 n: supp_getpwent in TU 9
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen62
+wur: gen100 4 2569 10 1383 10 7 n: tpl_size_for in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen101
+wur: gen26 3 5518 60 4397 60 41 n: prefix_array in TU 5
+wur_diagnostics: No iterators, skipping function
+wur: gen89 2 3275 64 1293 62 2 n: tpl_node_new in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen33 10 7981 118 2782 117 106 n: pr_openlog in TU 8
+wur_diagnostics: No iterators, skipping function
+wur: gen62 3 4545 25 1487 23 19 n: fgetpwent in TU 9
+wur_diagnostics: No iterators, skipping function
+wur: gen25 8 2600 34 4093 35 78 n: next_brace_sub in TU 5
+wur_diagnostics: No iterators, skipping function
+wur: gen24 10 3164 16 2508 15 8 n: globfree in TU 5
+wur_diagnostics: No iterators, skipping function
+wur: gen36 1 11685 178 3140 177 114 n: pr_vsyslog in TU 8
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen37
+wur: gen37 3 4054 10 1339 9 3 n: pr_syslog in TU 8
+wur_diagnostics: No iterators, skipping function
+wur: gen82 2 8852 174 5478 174 328 n: tpl_free in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen90
+wur: gen83 1 8939 163 3802 161 300 n: tpl_free_keep_map in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen23 5 15885 490 9396 488 531 n: glob_in_dir in TU 5
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen27
+wur: gen101 4 15357 724 2933 724 2463 n: tpl_peek in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen103 11 2217 1037 333 5 1 n: pr_os_already_has_snprintf_and_vsnprintf in TU 4
+wur_diagnostics: No iterators, skipping function
+wur: gen45 11 2953 6 692 5 2 n: iscntrl in TU 1
+wur_diagnostics: No iterators, skipping function
+wur: gen69 6 3683 1054 2106 11 3 n: tpl_cpv in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen70
+wur: gen65 13 3100 1045 2465 15 9 n: tpl_find_i in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen91
+makeWUP: gen66
+wur: gen38 9 3164 1054 1841 10 4 n: __isctype in TU 1
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen46
+makeWUP: gen52
+wur: gen34 13 2335 6 748 6 2 n: pr_setlogfacility in TU 8
+wur_diagnostics: No iterators, skipping function
+wur: gen51 9 2955 5 687 5 2 n: isupper in TU 1
+wur_diagnostics: No iterators, skipping function
+wur: gen46 8 3022 5 883 5 2 n: isdigit in TU 1
+wur_diagnostics: No iterators, skipping function
+wur: gen52 10 3025 5 891 5 2 n: isxdigit in TU 1
+wur_diagnostics: No iterators, skipping function
+wur: gen66 5 4405 12 1767 14 8 n: tpl_Alen in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen58 6 2579 19 2220 18 26 n: supp_grplist in TU 9
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen59
+wur: gen74 12 8256 1082 3562 33 39 n: tpl_mmap_output_file in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen47 12 2954 6 695 5 2 n: islower in TU 1
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen54
+wur: gen59 5 9685 50 2605 50 90 n: supp_getgrent in TU 9
+wur_diagnostics: No iterators, skipping function
+wur: gen85 14 8373 1119 5345 115 249 n: tpl_gather_blocking in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen31 14 2886 7 869 6 2 n: pr_closelog in TU 8
+wur_diagnostics: No iterators, skipping function
+wur: gen70 3 7668 127 5030 126 446 n: tpl_dump_atyp in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen73
+wur: gen86 15 7880 1177 7123 136 188 n: tpl_gather_mem in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen35 15 2328 5 738 5 2 n: pr_setlogmask in TU 8
+wur_diagnostics: No iterators, skipping function
+wur: gen87 16 10000 1229 7607 180 390 n: tpl_gather_nonblocking in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen88
+wur: gen30 16 2202 2 333 1 1 n: pr_os_already_has_mkstemp in TU 7
+wur_diagnostics: No iterators, skipping function
+wur: gen88 5 9969 25 1507 24 21 n: tpl_gather in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen94 7 7009 1267 8144 207 477 n: tpl_serlen in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen95
+makeWUP: gen96
+wur: gen73 3 11237 107 4173 107 334 n: tpl_dump_to_mem in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen76
+wur: gen57 7 5591 29 4978 28 23 n: fgetbufline in TU 9
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen60
+wur: gen60 7 6700 28 1597 28 37 n: fgetgrent in TU 9
+wur_diagnostics: No iterators, skipping function
+wur: gen96 8 11071 101 2763 93 341 n: tpl_unpackA0 in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen95 5 14322 102 6299 101 116 n: tpl_sanity in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen97
+wur: gen91 4 12201 355 4644 355 966 n: tpl_pack in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen76 3 13942 148 3703 147 187 n: tpl_dump in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen97 5 14668 89 3941 88 219 n: tpl_load in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen102
+wur: gen102 3 17747 339 5671 339 974 n: tpl_unpack in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen90 2 16665 1673 10022 1673 10001 PATHOUT=1 n: tpl_map_va in TU 10
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen92
+makeWUP: gen98
+wur: gen98 3 4874 7 1376 6 3 n: tpl_map in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen92 2 12065 38 1509 37 67 n: tpl_jot in TU 10
+wur_diagnostics: No iterators, skipping function
+wur: gen27 1 27404 1641 17829 1639 2932 n: glob_limited in TU 5
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen28
+wur: gen28 1 9164 27 4252 26 51 n: glob in TU 5
+wur_diagnostics: No iterators, skipping function
+wur: gen54 6 12632 1950 10267 1948 3810 n: internal_fnmatch in TU 1
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen55
+makeWUP: gen56
+wur: gen56 2 6293 9 1747 8 8 n: pr_fnmatch in TU 1
+wur_diagnostics: No iterators, skipping function
+wur: gen55 1 11510 192 10 192 0 n: ext_match in TU 1
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen55
+wur: gen55 1 16709 347 6596 344 1339 n: ext_match in TU 1 with extra_info
+wur_diagnostics: No iterators, skipping function
+makeWUP: gen104
+makeWUP: PER_TU0
+makeWUP: PER_TU1
+makeWUP: PER_TU2
+makeWUP: PER_TU3
+makeWUP: PER_TU4
+makeWUP: PER_TU5
+makeWUP: PER_TU6
+makeWUP: PER_TU7
+makeWUP: PER_TU8
+makeWUP: PER_TU9
+makeWUP: PER_TU10
+summary: Analysis summary report:
+summary: ------------------------
+summary: Files analyzed                 : 22 Total
+summary:     C++                        : 22
+summary: Total LoC input to cov-analyze : 25872
+summary: Functions analyzed             : 84
+summary: Classes/structs analyzed       : 27
+summary: Paths analyzed                 : 28342
+summary: Time taken by analysis         : 00:00:06
+summary: Defect occurrences found       : 49 Total
+summary:                                   2 CHECKED_RETURN
+summary:                                  43 FORWARD_NULL
+summary:                                   3 OVERRUN
+summary:                                   1 UNINIT
+summary: TU Language    Capture    TU Count
+summary: -----------    -------    --------
+summary: C++            Build         22
+summary: Exceeded path limit of 5000 paths in 0.96% of functions (normally up to 5% of functions encounter this limitation)
+summary: Number of functions: 104
+summary: out_of_memory count: 0
+summary: paths_exceeded count: 1
+summary: recoverable failures: 0
+summary: cpp-wu-time-milliseconds: 120052
+summary: all-wu-time-milliseconds: 120052
+mem: AM peak mem bytes: 0
+assert: suppressed asserts: workers=0, master=0
+failures: recoverable failures: workers=0, master=0

@@ -1,0 +1,263 @@
+Encountered compiler invocation for first time, configuring it: /usr/bin/gcc -O2
+[STATUS] Using comptype clangcc
+[STATUS] Environment Variables
+VSCODE_GIT_ASKPASS_MAIN=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+COVERITY_BUILD_INVOCATION_ID=1
+COVERITY_DISABLE_XCODEBUILD_WORKAROUND=1
+COVERITY_COMMON_TEMP=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T
+COVERITY_IDIR=/Users/dylanm/Projects/proftpd-1.3.5/idir
+SHELL=/bin/zsh
+_=/Library/Developer/CommandLineTools/usr/bin/make
+COVERITY_IS_COMPILER_DESCENDANT=0
+COVERITY_JAVA14_WARNING_FILE=/Users/dylanm/Projects/proftpd-1.3.5/idir/warn_about_java14_compilations
+COVERITY_CONFIG_FILE=/Applications/cov-analysis-macosx-2021.9.0/config/coverity_config.xml
+__CFBundleIdentifier=com.microsoft.VSCode
+COVERITY_SITE_CC_CAPTURE_DESCENDANTS=dotnet
+COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY=1
+COVERITY_ENABLE_CECS_WATCHDOG=1
+COVERITY_JAVA_CONFIG=javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+UseSharedCompilation=false
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Applications/CyberArk EPM.app/Contents/Helpers:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/cov-analysis-macosx-2021.9.0/bin:/Users/dylanm/Build-Tools/apache-maven-3.8.3/bin:/Applications/CMake.app/Contents/bin:/Applications/cov-analysis-macosx-2021.9.0/bin:/Users/dylanm/Build-Tools/apache-maven-3.8.3/bin:/Applications/CMake.app/Contents/bin
+COVERITY_REWRITE_TO=
+COVERITY_TEMP=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/cov-dylanm/3a69613ebe1c01865a2e9dd1e1f7cf9c
+COVERITY_OUTPUT_ENCODING=UTF-8
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.HBFdxls1RM/Listeners
+COVERITY_TOP_CONFIG=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/cov-dylanm/3a69613ebe1c01865a2e9dd1e1f7cf9c/cov-configure/coverity_config.xml
+PWD=/Users/dylanm/Projects/proftpd-1.3.5/lib
+COVERITY_LD_PRELOAD=/Applications/cov-analysis-macosx-2021.9.0/bin/libcapture-macosx.dylib
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+HOME=/Users/dylanm
+COVERITY_BIN=/Applications/cov-analysis-macosx-2021.9.0/bin
+LOGNAME=dylanm
+COVERITY_DISENGAGE_EXES=qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64
+COVERITY_SYSTEM_ENCODING=UTF-8
+COVERITY_PATHLESS_CONFIGS_FILE=/Users/dylanm/Projects/proftpd-1.3.5/idir/has_pathless_configs
+XPC_FLAGS=0x0
+COLORTERM=truecolor
+SHLVL=2
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home
+USER=dylanm
+COVERITY_ENABLE_JAVA_ANNOTATION_FRAMEWORK_SUPPORT=1
+COVERITY_IS_COMPILER=0
+OLDPWD=/Users/dylanm/Projects/proftpd-1.3.5
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=--ms-enable-electron-run-as-node
+TERM_PROGRAM=vscode
+TMPDIR=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/
+VSCODE_GIT_ASKPASS_NODE=/Applications/Visual Studio Code.app/Contents/MacOS/Electron
+MAKEFLAGS=
+MFLAGS=
+TERM_PROGRAM_VERSION=1.67.1
+COVERITY_EMIT=/Users/dylanm/Projects/proftpd-1.3.5/idir/emit
+XPC_SERVICE_NAME=0
+COVERITY_COMPILER_PATH_MISMATCH_FILE=/Users/dylanm/Projects/proftpd-1.3.5/idir/has_path_mismatches
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+COMMAND_MODE=unix2003
+GIT_ASKPASS=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+COVERITY_OUTPUT=/Users/dylanm/Projects/proftpd-1.3.5/idir/build-log.txt
+COVERITY_SITE_CC=Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe;apt;cl;csc;csc.dll;csc2;devenv;dotnet;g++;gcc;java;javac;javaw;lib;link;msbuild;razor
+COVERITY_PREV_XML_CATALOG_FILES=
+VSCODE_GIT_IPC_HANDLE=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/vscode-git-400c63e7ac.sock
+LANG=en_US.UTF-8
+TERM=xterm-256color
+COVERITY_LOG=/Users/dylanm/Projects/proftpd-1.3.5/idir/build-log.txt
+COVERITY_TOP_PROCESS=0
+COVERITY_REWRITE_FROM=
+MAKELEVEL=2
+COVERITY_BIN=/Applications/cov-analysis-macosx-2021.9.0/bin
+COVERITY_COMPILER_PATH_MISMATCH_FILE=/Users/dylanm/Projects/proftpd-1.3.5/idir/has_path_mismatches
+COVERITY_EMIT=/Users/dylanm/Projects/proftpd-1.3.5/idir/emit
+COVERITY_JAVA_CONFIG=javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+COVERITY_OUTPUT=/Users/dylanm/Projects/proftpd-1.3.5/idir/build-log.txt
+COVERITY_OUTPUT_ENCODING=UTF-8
+COVERITY_BUILD_INVOCATION_ID=1
+COVERITY_TEMP=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/cov-dylanm/3a69613ebe1c01865a2e9dd1e1f7cf9c
+COVERITY_COMMON_TEMP=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T
+COVERITY_DISABLE_XCODEBUILD_WORKAROUND=1
+COVERITY_SITE_CC=Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe;apt;cl;csc;csc.dll;csc2;devenv;dotnet;g++;gcc;java;javac;javaw;lib;link;msbuild;razor
+COVERITY_SITE_CC_CAPTURE_DESCENDANTS=dotnet
+COVERITY_PATHLESS_CONFIGS_FILE=/Users/dylanm/Projects/proftpd-1.3.5/idir/has_pathless_configs
+COVERITY_SITE_CC=Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe;apt;cl;csc;csc.dll;csc2;devenv;dotnet;g++;gcc;java;javac;javaw;lib;link;msbuild;razor
+COVERITY_TOP_CONFIG=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/cov-dylanm/3a69613ebe1c01865a2e9dd1e1f7cf9c/cov-configure/coverity_config.xml
+COVERITY_DISENGAGE_EXES=qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64
+COVERITY_REWRITE_FROM=
+COVERITY_REWRITE_TO=
+COVERITY_TOP_PROCESS=0
+COVERITY_IS_COMPILER=0
+COVERITY_IS_COMPILER_DESCENDANT=0
+COVERITY_LD_PRELOAD=/Applications/cov-analysis-macosx-2021.9.0/bin/libcapture-macosx.dylib
+Added template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Encountered compiler invocation for first time, configuring it: /usr/bin/gcc
+[STATUS] Using comptype clangcc
+[STATUS] Environment Variables
+COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY=1
+COVERITY_DISABLE_XCODEBUILD_WORKAROUND=1
+TERM_PROGRAM=vscode
+COVERITY_IDIR=/Users/dylanm/Projects/proftpd-1.3.5/idir
+SHELL=/bin/sh
+TERM=xterm-256color
+COVERITY_SYSTEM_ENCODING=UTF-8
+MAKEFLAGS=
+COVERITY_IS_COMPILER_DESCENDANT=0
+TMPDIR=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/
+COVERITY_COMMON_TEMP=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T
+TERM_PROGRAM_VERSION=1.67.1
+UseSharedCompilation=false
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+COVERITY_PATHLESS_CONFIGS_FILE=/Users/dylanm/Projects/proftpd-1.3.5/idir/has_pathless_configs
+COVERITY_TOP_PROCESS=0
+DUALCASE=1
+COVERITY_SITE_CC_CAPTURE_DESCENDANTS=dotnet
+COVERITY_BIN=/Applications/cov-analysis-macosx-2021.9.0/bin
+USER=dylanm
+COMMAND_MODE=unix2003
+COVERITY_BUILD_INVOCATION_ID=1
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.HBFdxls1RM/Listeners
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+MAKELEVEL=1
+COVERITY_JAVA14_WARNING_FILE=/Users/dylanm/Projects/proftpd-1.3.5/idir/warn_about_java14_compilations
+MFLAGS=
+COVERITY_EMIT=/Users/dylanm/Projects/proftpd-1.3.5/idir/emit
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Applications/CyberArk EPM.app/Contents/Helpers:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/cov-analysis-macosx-2021.9.0/bin:/Users/dylanm/Build-Tools/apache-maven-3.8.3/bin:/Applications/CMake.app/Contents/bin:/Applications/cov-analysis-macosx-2021.9.0/bin:/Users/dylanm/Build-Tools/apache-maven-3.8.3/bin:/Applications/CMake.app/Contents/bin
+__CFBundleIdentifier=com.microsoft.VSCode
+PWD=/Users/dylanm/Projects/proftpd-1.3.5
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home
+COVERITY_ENABLE_JAVA_ANNOTATION_FRAMEWORK_SUPPORT=1
+COVERITY_PREV_XML_CATALOG_FILES=
+COVERITY_SITE_CC=Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe;apt;cl;csc;csc.dll;csc2;devenv;dotnet;g++;gcc;java;javac;javaw;lib;link;msbuild;razor
+LANG=C
+COVERITY_LOG=/Users/dylanm/Projects/proftpd-1.3.5/idir/build-log.txt
+COVERITY_REWRITE_FROM=
+XPC_FLAGS=0x0
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=--ms-enable-electron-run-as-node
+COVERITY_CONFIG_FILE=/Applications/cov-analysis-macosx-2021.9.0/config/coverity_config.xml
+BIN_SH=xpg4
+COVERITY_JAVA_CONFIG=javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+XPC_SERVICE_NAME=0
+COVERITY_TOP_CONFIG=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/cov-dylanm/3a69613ebe1c01865a2e9dd1e1f7cf9c/cov-configure/coverity_config.xml
+HOME=/Users/dylanm
+SHLVL=3
+COVERITY_COMPILER_PATH_MISMATCH_FILE=/Users/dylanm/Projects/proftpd-1.3.5/idir/has_path_mismatches
+VSCODE_GIT_ASKPASS_MAIN=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+COVERITY_LD_PRELOAD=/Applications/cov-analysis-macosx-2021.9.0/bin/libcapture-macosx.dylib
+COVERITY_ENABLE_CECS_WATCHDOG=1
+LOGNAME=dylanm
+VSCODE_GIT_IPC_HANDLE=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/vscode-git-400c63e7ac.sock
+COVERITY_OUTPUT=/Users/dylanm/Projects/proftpd-1.3.5/idir/build-log.txt
+COVERITY_IS_COMPILER=0
+COVERITY_DISENGAGE_EXES=qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64
+VSCODE_GIT_ASKPASS_NODE=/Applications/Visual Studio Code.app/Contents/MacOS/Electron
+GIT_ASKPASS=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+COVERITY_REWRITE_TO=
+COVERITY_TEMP=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/cov-dylanm/3a69613ebe1c01865a2e9dd1e1f7cf9c
+COVERITY_OUTPUT_ENCODING=UTF-8
+COLORTERM=truecolor
+_=/usr/bin/gcc
+COVERITY_BIN=/Applications/cov-analysis-macosx-2021.9.0/bin
+COVERITY_COMPILER_PATH_MISMATCH_FILE=/Users/dylanm/Projects/proftpd-1.3.5/idir/has_path_mismatches
+COVERITY_EMIT=/Users/dylanm/Projects/proftpd-1.3.5/idir/emit
+COVERITY_JAVA_CONFIG=javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+COVERITY_OUTPUT=/Users/dylanm/Projects/proftpd-1.3.5/idir/build-log.txt
+COVERITY_OUTPUT_ENCODING=UTF-8
+COVERITY_BUILD_INVOCATION_ID=1
+COVERITY_TEMP=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/cov-dylanm/3a69613ebe1c01865a2e9dd1e1f7cf9c
+COVERITY_COMMON_TEMP=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T
+COVERITY_DISABLE_XCODEBUILD_WORKAROUND=1
+COVERITY_SITE_CC=Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe;apt;cl;csc;csc.dll;csc2;devenv;dotnet;g++;gcc;java;javac;javaw;lib;link;msbuild;razor
+COVERITY_SITE_CC_CAPTURE_DESCENDANTS=dotnet
+COVERITY_PATHLESS_CONFIGS_FILE=/Users/dylanm/Projects/proftpd-1.3.5/idir/has_pathless_configs
+COVERITY_SITE_CC=Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x64.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation-x86.exe;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.dll;Microsoft.AspNetCore.Mvc.Razor.ViewCompilation.exe;apt;cl;csc;csc.dll;csc2;devenv;dotnet;g++;gcc;java;javac;javaw;lib;link;msbuild;razor
+COVERITY_TOP_CONFIG=/var/folders/_y/zgnlksf54px15k2tssg93np40000gn/T/cov-dylanm/3a69613ebe1c01865a2e9dd1e1f7cf9c/cov-configure/coverity_config.xml
+COVERITY_DISENGAGE_EXES=qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64
+COVERITY_REWRITE_FROM=
+COVERITY_REWRITE_TO=
+COVERITY_TOP_PROCESS=0
+COVERITY_IS_COMPILER=0
+COVERITY_IS_COMPILER_DESCENDANT=0
+COVERITY_LD_PRELOAD=/Applications/cov-analysis-macosx-2021.9.0/bin/libcapture-macosx.dylib
+Added template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/02cbb2d9807c2d5de2cac6ffc5ab5cbd/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/87ccc412ac7dbbdc1b76c5c2d27bd9c7/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/02cbb2d9807c2d5de2cac6ffc5ab5cbd/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/02cbb2d9807c2d5de2cac6ffc5ab5cbd/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/02cbb2d9807c2d5de2cac6ffc5ab5cbd/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/02cbb2d9807c2d5de2cac6ffc5ab5cbd/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/02cbb2d9807c2d5de2cac6ffc5ab5cbd/coverity_config.xml
+Using cached template compiler configuration instance /Users/dylanm/Projects/proftpd-1.3.5/idir/emit/snps-keszocovkcat/config/02cbb2d9807c2d5de2cac6ffc5ab5cbd/coverity_config.xml

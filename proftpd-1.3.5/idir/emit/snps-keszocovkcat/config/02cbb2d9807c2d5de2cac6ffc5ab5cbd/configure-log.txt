@@ -1,0 +1,12 @@
+Native Compiler invocation: /usr/bin/gcc -o proftpd src/main.o src/timers.o src/sets.o src/pool.o src/privs.o src/str.o src/table.o src/regexp.o src/dirtree.o src/expr.o src/support.o src/netaddr.o src/inet.o src/child.o src/parser.o src/log.o src/lastlog.o src/xferlog.o src/bindings.o src/netacl.o src/class.o src/scoreboard.o src/help.o src/feat.o src/netio.o src/cmd.o src/response.o src/data.o src/modules.o src/stash.o src/display.o src/auth.o src/fsio.o src/mkhome.o src/ctrls.o src/event.o src/var.o src/throttle.o src/session.o src/trace.o src/encode.o src/proctitle.o src/filter.o src/pidfile.o src/env.o src/version.o src/rlimit.o src/wtmp.o src/memcache.o modules/mod_core.o modules/mod_xfer.o modules/mod_rlimit.o modules/mod_auth_unix.o modules/mod_auth_file.o modules/mod_auth.o modules/mod_ls.o modules/mod_log.o modules/mod_site.o modules/mod_delay.o modules/mod_facts.o modules/mod_ident.o modules/mod_auth_pam.o modules/module_glue.o -L/Users/dylanm/Projects/proftpd-1.3.5/lib -lsupp -lresolv -lpam
+Working directory: /Users/dylanm/Projects/proftpd-1.3.5
+Comptype: clangcc
+* Configuring /usr/bin/gcc as a C compiler
+* Configuring /usr/bin/gcc as a C++ compiler
+* Configuring /usr/bin/gcc as a C compiler
+* Configuring /usr/bin/gcc as an Objective-C compiler
+* Configuring /usr/bin/gcc as an Objective-C++ compiler
+* Configuring /usr/bin/g++ as a C++ compiler
+* Configuring /usr/bin/g++ as a C compiler
+* Configuring /usr/bin/g++ as an Objective-C compiler
+* Configuring /usr/bin/g++ as an Objective-C++ compiler

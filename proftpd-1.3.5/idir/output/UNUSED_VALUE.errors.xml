@@ -1,0 +1,23 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>UNUSED_VALUE</checker>
+<type>unused_value</type>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/main.c</file>
+<function>daemon_loop</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>value_overwrite</tag>
+<description>{CovLStrv2{{t{Overwriting previous write to {0} with value from {1}.}{{code{xerrno}}}{{code{*__error()}}}}}}</description>
+<line>1533</line>
+</event>
+<event>
+<main>true</main>
+<tag>assigned_value</tag>
+<description>{CovLStrv2{{t{Assigning value from {0} to {1} here, but that stored value is overwritten before it can be used.}{{code{*__error()}}}{{code{xerrno}}}}}}</description>
+<line>1546</line>
+</event>
+<extra>__error</extra>
+<subcategory>none</subcategory>
+</error>

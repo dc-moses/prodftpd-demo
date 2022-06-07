@@ -1,0 +1,244 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>REVERSE_INULL</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>before_null_check</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_ls.c</file>
+<function>parse_list_opts</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>check_after_deref</tag>
+<description>{CovLStrv2{{t{Null-checking {0} suggests that it may be null, but it has already been dereferenced on all paths leading to the check.}{{code{*opt}}}}}}</description>
+<line>1475</line>
+</event>
+<event>
+<tag>alias</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{ptr}}}{}{{code{*opt}}}}}}</description>
+<line>1462</line>
+</event>
+<event>
+<tag>deref_ptr</tag>
+<description>{CovLStrv2{{t{Directly dereferencing pointer {0}.}{{code{ptr}}}}}}</description>
+<line>1464</line>
+</event>
+<event>
+<tag>alias</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{*opt}}}{}{{code{ptr}}}}}}</description>
+<line>1471</line>
+</event>
+<event>
+<tag>deref_ptr</tag>
+<description>{CovLStrv2{{t{Directly dereferencing pointer {0}.}{{code{ptr}}}}}}</description>
+<line>1573</line>
+</event>
+<event>
+<tag>alias</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{*opt}}}{}{{code{ptr}}}}}}</description>
+<line>1581</line>
+</event>
+<extra>ptr</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>REVERSE_INULL</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>before_null_check</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/auth.c</file>
+<function>set_groups</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>deref_ptr_in_call</tag>
+<description>{CovLStrv2{{t{Dereferencing pointer {0}.}{{code{tmp_pool}}}}}}</description>
+<line>1529</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/pool.c</file>
+<function>pcalloc</function>
+<key>aaf087dc67ed7110f96daed2db25c25c</key>
+<id>4</id>
+</model_ptr>
+</event>
+<event>
+<main>true</main>
+<tag>check_after_deref</tag>
+<description>{CovLStrv2{{t{Null-checking {0} suggests that it may be null, but it has already been dereferenced on all paths leading to the check.}{{code{tmp_pool}}}}}}</description>
+<line>1580</line>
+</event>
+<extra>tmp_pool</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>REVERSE_INULL</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>before_null_check</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/auth.c</file>
+<function>set_groups</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>deref_ptr_in_call</tag>
+<description>{CovLStrv2{{t{Dereferencing pointer {0}.}{{code{tmp_pool}}}}}}</description>
+<line>1529</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/pool.c</file>
+<function>pcalloc</function>
+<key>aaf087dc67ed7110f96daed2db25c25c</key>
+<id>4</id>
+</model_ptr>
+</event>
+<event>
+<main>true</main>
+<tag>check_after_deref</tag>
+<description>{CovLStrv2{{t{Null-checking {0} suggests that it may be null, but it has already been dereferenced on all paths leading to the check.}{{code{tmp_pool}}}}}}</description>
+<line>1586</line>
+</event>
+<extra>tmp_pool</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>REVERSE_INULL</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>before_null_check</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/fsio.c</file>
+<function>pr_fsio_chdir_canon</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>deref_ptr</tag>
+<description>{CovLStrv2{{t{Directly dereferencing pointer {0}.}{{code{fs}}}}}}</description>
+<line>2674</line>
+</event>
+<event>
+<main>true</main>
+<tag>check_after_deref</tag>
+<description>{CovLStrv2{{t{Null-checking {0} suggests that it may be null, but it has already been dereferenced on all paths leading to the check.}{{code{fs}}}}}}</description>
+<line>2680</line>
+</event>
+<extra>fs</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>REVERSE_INULL</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>before_null_check</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_core.c</file>
+<function>set_allowdenyusergroupclass</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<tag>deref_ptr</tag>
+<description>{CovLStrv2{{t{Directly dereferencing pointer {0}.}{{code{acl}}}}}}</description>
+<line>2752</line>
+</event>
+<event>
+<main>true</main>
+<tag>check_after_deref</tag>
+<description>{CovLStrv2{{t{Null-checking {0} suggests that it may be null, but it has already been dereferenced on all paths leading to the check.}{{code{acl}}}}}}</description>
+<line>2760</line>
+</event>
+<extra>acl</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>REVERSE_INULL</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>before_null_check</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_ls.c</file>
+<function>ls_nlst</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>check_after_deref</tag>
+<description>{CovLStrv2{{t{Null-checking {0} suggests that it may be null, but it has already been dereferenced on all paths leading to the check.}{{code{target}}}}}}</description>
+<line>2779</line>
+</event>
+<event>
+<tag>alias</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{ptr}}}{}{{code{target}}}}}}</description>
+<line>2767</line>
+</event>
+<event>
+<tag>deref_ptr</tag>
+<description>{CovLStrv2{{t{Directly dereferencing pointer {0}.}{{code{ptr}}}}}}</description>
+<line>2769</line>
+</event>
+<event>
+<tag>alias</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{target}}}{}{{code{ptr}}}}}}</description>
+<line>2776</line>
+</event>
+<event>
+<tag>deref_ptr</tag>
+<description>{CovLStrv2{{t{Directly dereferencing pointer {0}.}{{code{ptr}}}}}}</description>
+<line>2786</line>
+</event>
+<event>
+<tag>alias</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{target}}}{}{{code{ptr}}}}}}</description>
+<line>2794</line>
+</event>
+<extra>ptr</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>REVERSE_INULL</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>before_null_check</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_ls.c</file>
+<function>dolist</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>check_after_deref</tag>
+<description>{CovLStrv2{{t{Null-checking {0} suggests that it may be null, but it has already been dereferenced on all paths leading to the check.}{{code{arg}}}}}}</description>
+<line>1782</line>
+</event>
+<event>
+<tag>alias</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{ptr}}}{}{{code{arg}}}}}}</description>
+<line>1770</line>
+</event>
+<event>
+<tag>deref_ptr</tag>
+<description>{CovLStrv2{{t{Directly dereferencing pointer {0}.}{{code{ptr}}}}}}</description>
+<line>1772</line>
+</event>
+<event>
+<tag>alias</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{arg}}}{}{{code{ptr}}}}}}</description>
+<line>1779</line>
+</event>
+<event>
+<tag>deref_ptr</tag>
+<description>{CovLStrv2{{t{Directly dereferencing pointer {0}.}{{code{ptr}}}}}}</description>
+<line>1790</line>
+</event>
+<event>
+<tag>alias</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{arg}}}{}{{code{ptr}}}}}}</description>
+<line>1798</line>
+</event>
+<extra>ptr</extra>
+<subcategory>none</subcategory>
+</error>

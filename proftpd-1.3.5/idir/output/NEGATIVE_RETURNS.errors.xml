@@ -1,0 +1,750 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NEGATIVE_RETURNS</checker>
+<type>negative_returns</type>
+<subtype>sensitive</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/log.c</file>
+<function>log_write</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{main_server}}}}}}</description>
+<line>425</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{main_server-&gt;ServerFQDN}}}}}}</description>
+<line>425</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{remote_addr}}}}}}</description>
+<line>433</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{remote_name}}}}}}</description>
+<line>433</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{!discard}}}}}}</description>
+<line>446</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{logstderr}}}}}}</description>
+<line>446</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{!main_server}}}}}}</description>
+<line>446</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>490</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{syslog_discard}}}}}}</description>
+<line>492</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{pr_log_event_listening(2) &lt;= 0}}}}}}</description>
+<line>494</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>497</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{max_priority != NULL}}}}}}</description>
+<line>501</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>509</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{systemlog_fd != -1}}}}}}</description>
+<line>511</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>578</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{set_facility != -1}}}}}}</description>
+<line>583</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{!syslog_open}}}}}}</description>
+<line>586</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>negative_return_fn</tag>
+<description>{CovLStrv2{{t{Function {0} returns a negative number.}{{code{pr_openlog(&quot;proftpd&quot;, 9, f)}}}}}}</description>
+<line>587</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/pr-syslog.c</file>
+<function>pr_openlog</function>
+<key>d9efefdb4192ba32d6ddacbfa80bde8b</key>
+<id>2</id>
+</model_ptr>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{syslog_sockfd}}}{}{{code{pr_openlog(&quot;proftpd&quot;, 9, f)}}}}}}</description>
+<line>587</line>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>590</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>597</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{*serverinfo}}}}}}</description>
+<line>599</line>
+<path_event></path_event>
+</event>
+<event>
+<main>true</main>
+<tag>negative_returns</tag>
+<description>{CovLStrv2{{t{{0} is passed to a parameter that cannot be negative.}{{code{syslog_sockfd}}}}}}</description>
+<line>600</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/pr-syslog.c</file>
+<function>pr_syslog</function>
+<key>6b0323a945321191e3a73edd6bf5c789</key>
+<id>3</id>
+</model_ptr>
+</event>
+<extra>pr_openlog</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NEGATIVE_RETURNS</checker>
+<type>negative_returns</type>
+<subtype>sensitive</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/log.c</file>
+<function>log_write</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{main_server}}}}}}</description>
+<line>425</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{main_server-&gt;ServerFQDN}}}}}}</description>
+<line>425</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{remote_addr}}}}}}</description>
+<line>433</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{remote_name}}}}}}</description>
+<line>433</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{!discard}}}}}}</description>
+<line>446</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{logstderr}}}}}}</description>
+<line>446</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{!main_server}}}}}}</description>
+<line>446</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>490</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{syslog_discard}}}}}}</description>
+<line>492</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{pr_log_event_listening(2) &lt;= 0}}}}}}</description>
+<line>494</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>497</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{max_priority != NULL}}}}}}</description>
+<line>501</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>509</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{systemlog_fd != -1}}}}}}</description>
+<line>511</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>578</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{set_facility != -1}}}}}}</description>
+<line>583</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{!syslog_open}}}}}}</description>
+<line>586</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>negative_return_fn</tag>
+<description>{CovLStrv2{{t{Function {0} returns a negative number.}{{code{pr_openlog(&quot;proftpd&quot;, 9, f)}}}}}}</description>
+<line>587</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/pr-syslog.c</file>
+<function>pr_openlog</function>
+<key>d9efefdb4192ba32d6ddacbfa80bde8b</key>
+<id>2</id>
+</model_ptr>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{syslog_sockfd}}}{}{{code{pr_openlog(&quot;proftpd&quot;, 9, f)}}}}}}</description>
+<line>587</line>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>590</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>597</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{*serverinfo}}}}}}</description>
+<line>599</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>else_branch</tag>
+<description>{CovLStrv2{{t{Reached else branch.}}}}</description>
+<line>602</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<main>true</main>
+<tag>negative_returns</tag>
+<description>{CovLStrv2{{t{{0} is passed to a parameter that cannot be negative.}{{code{syslog_sockfd}}}}}}</description>
+<line>603</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/pr-syslog.c</file>
+<function>pr_syslog</function>
+<key>6b0323a945321191e3a73edd6bf5c789</key>
+<id>3</id>
+</model_ptr>
+</event>
+<extra>pr_openlog</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NEGATIVE_RETURNS</checker>
+<type>negative_returns</type>
+<subtype>critical_argument</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/dirtree.c</file>
+<function>set_tcp_bufsz</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{p == NULL}}}}}}</description>
+<line>3529</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>3555</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>negative_return_fn</tag>
+<description>{CovLStrv2{{t{Function {0} returns a negative number.}{{code{socket(2, 1, p-&gt;p_proto)}}}}}}</description>
+<line>3557</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{sockfd}}}{}{{code{socket(2, 1, p-&gt;p_proto)}}}}}}</description>
+<line>3557</line>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{sockfd &lt; 0}}}}}}</description>
+<line>3558</line>
+<path_event></path_event>
+</event>
+<event>
+<main>true</main>
+<tag>negative_returns</tag>
+<description>{CovLStrv2{{t{{0} is passed to a parameter that cannot be negative.}{{code{sockfd}}}}}}</description>
+<line>3569</line>
+</event>
+<extra>socket</extra>
+<subcategory>critical_argument</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NEGATIVE_RETURNS</checker>
+<type>negative_returns</type>
+<subtype>critical_argument</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/netaddr.c</file>
+<function>netaddr_get_dnsstr_gethostbyname</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>negative_return_fn</tag>
+<description>{CovLStrv2{{t{Function {0} returns a negative number.}{{code{pr_netaddr_get_family(na)}}}}}}</description>
+<line>1685</line>
+<model_ptr>
+<module>module</module>
+<property>prop</property>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/netaddr.c</file>
+<function>pr_netaddr_get_family</function>
+<key>a92615b276b316eb4bc99dd7a657f9b5</key>
+<id>1</id>
+</model_ptr>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{family}}}{}{{code{pr_netaddr_get_family(na)}}}}}}</description>
+<line>1685</line>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{pr_netaddr_is_v4mappedv6(na) == 1}}}}}}</description>
+<line>1688</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1691</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<main>true</main>
+<tag>negative_returns</tag>
+<description>{CovLStrv2{{t{{0} is passed to a parameter that cannot be negative.}{{code{family}}}}}}</description>
+<line>1693</line>
+</event>
+<extra>pr_netaddr_get_family</extra>
+<subcategory>critical_argument</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NEGATIVE_RETURNS</checker>
+<type>negative_returns</type>
+<subtype>critical_argument</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/inet.c</file>
+<function>pr_inet_openrw</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{pr_inet_get_conn_info(res, fd) &lt; 0}}}}}}</description>
+<line>1405</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{*__error() != 9}}}}}}</description>
+<line>1405</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1408</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{addr}}}}}}</description>
+<line>1410</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{!res-&gt;remote_addr}}}}}}</description>
+<line>1411</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{resolve}}}}}}</description>
+<line>1418</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{res-&gt;remote_addr != NULL}}}}}}</description>
+<line>1418</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1421</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{res-&gt;remote_name == NULL}}}}}}</description>
+<line>1423</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1431</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{fd == -1}}}}}}</description>
+<line>1433</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>var_tested_neg</tag>
+<description>{CovLStrv2{{t{Variable {0} tests negative.}{{code{fd}}}}}}</description>
+<line>1433</line>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{c-&gt;listen_fd != -1}}}}}}</description>
+<line>1433</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1436</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{rfd != -1}}}}}}</description>
+<line>1438</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{fd != rfd}}}}}}</description>
+<line>1439</line>
+<path_event></path_event>
+</event>
+<event>
+<main>true</main>
+<tag>negative_returns</tag>
+<description>{CovLStrv2{{t{{0} is passed to a parameter that cannot be negative.}{{code{fd}}}}}}</description>
+<line>1440</line>
+</event>
+<extra>&lt;test&gt;</extra>
+<subcategory>critical_argument</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NEGATIVE_RETURNS</checker>
+<type>negative_returns</type>
+<subtype>critical_argument</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/inet.c</file>
+<function>pr_inet_openrw</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{pr_inet_get_conn_info(res, fd) &lt; 0}}}}}}</description>
+<line>1405</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{*__error() != 9}}}}}}</description>
+<line>1405</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1408</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{addr}}}}}}</description>
+<line>1410</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{!res-&gt;remote_addr}}}}}}</description>
+<line>1411</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{resolve}}}}}}</description>
+<line>1418</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{res-&gt;remote_addr != NULL}}}}}}</description>
+<line>1418</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1421</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{res-&gt;remote_name == NULL}}}}}}</description>
+<line>1423</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1431</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{fd == -1}}}}}}</description>
+<line>1433</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>var_tested_neg</tag>
+<description>{CovLStrv2{{t{Variable {0} tests negative.}{{code{fd}}}}}}</description>
+<line>1433</line>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{c-&gt;listen_fd != -1}}}}}}</description>
+<line>1433</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1436</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{rfd != -1}}}}}}</description>
+<line>1438</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>else_branch</tag>
+<description>{CovLStrv2{{t{Reached else branch.}}}}</description>
+<line>1446</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<main>true</main>
+<tag>negative_returns</tag>
+<description>{CovLStrv2{{t{{0} is passed to a parameter that cannot be negative.}{{code{fd}}}}}}</description>
+<line>1447</line>
+</event>
+<extra>&lt;test&gt;</extra>
+<subcategory>critical_argument</subcategory>
+</error>

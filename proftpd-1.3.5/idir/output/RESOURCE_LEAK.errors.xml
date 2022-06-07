@@ -1,0 +1,607 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>RESOURCE_LEAK</checker>
+<type>resource_leak</type>
+<subtype>memory</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/main.c</file>
+<function>dup_low_fd</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{i &lt; 3}}}}}}</description>
+<line>992</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{fd == i}}}}}}</description>
+<line>993</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>open_fn</tag>
+<description>{CovLStrv2{{t{Returning handle opened by {0}.}{{code{dup}}}}}}</description>
+<line>994</line>
+</event>
+<event>
+<tag>var_assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = handle returned from {1}.}{{code{fd}}}{{code{dup(fd)}}}}}}</description>
+<line>994</line>
+</event>
+<event>
+<tag>noescape</tag>
+<description>{CovLStrv2{{t{Resource {0} is not freed or pointed-to in {1}.}{{code{fd}}}{{code{fcntl}}}}}}</description>
+<line>995</line>
+</event>
+<event>
+<tag>loop</tag>
+<description>{CovLStrv2{{t{Jumping back to the beginning of the loop.}}}}</description>
+<line>999</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop_begin</tag>
+<description>{CovLStrv2{{t{Jumped back to beginning of loop.}}}}</description>
+<line>992</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{i &lt; 3}}}}}}</description>
+<line>992</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{fd == i}}}}}}</description>
+<line>993</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>noescape</tag>
+<description>{CovLStrv2{{t{Resource {0} is not freed or pointed-to in {1}.}{{code{fd}}}{{code{dup}}}}}}</description>
+<line>994</line>
+</event>
+<event>
+<main>true</main>
+<tag>overwrite_var</tag>
+<description>{CovLStrv2{{t{Overwriting handle {0} in {1} leaks the handle.}{{code{fd}}}{{code{fd = dup(fd)}}}}}}</description>
+<line>994</line>
+</event>
+<extra>fd</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>RESOURCE_LEAK</checker>
+<type>resource_leak</type>
+<subtype>memory</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/netaddr.c</file>
+<function>get_addr_by_name</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{res != 0}}}}}}</description>
+<line>597</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{res != 11}}}}}}</description>
+<line>600</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{use_ipv6}}}}}}</description>
+<line>602</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{res != 0}}}}}}</description>
+<line>617</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>630</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>632</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>635</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>641</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>645</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{res != 0}}}}}}</description>
+<line>647</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>650</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{info}}}}}}</description>
+<line>653</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{info-&gt;ai_family == 2}}}}}}</description>
+<line>660</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{netaddr_ipcache_set(name, na) &lt; 0}}}}}}</description>
+<line>664</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>667</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{netaddr_ipcache_set(pr_netaddr_get_ipstr(na), na) &lt; 0}}}}}}</description>
+<line>669</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>672</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{use_ipv6}}}}}}</description>
+<line>678</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{addrs}}}}}}</description>
+<line>678</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>alloc_arg</tag>
+<description>{CovLStrv2{{t{{0} allocates memory that is stored into {1}.}{{code{getaddrinfo}}}{{code{info}}}}}}</description>
+<line>698</line>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{res != 0}}}}}}</description>
+<line>699</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>else_branch</tag>
+<description>{CovLStrv2{{t{Reached else branch.}}}}</description>
+<line>712</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{info}}}}}}</description>
+<line>717</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{info-&gt;ai_family != pr_netaddr_get_family(na)}}}}}}</description>
+<line>717</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>733</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<main>true</main>
+<tag>leaked_storage</tag>
+<description>{CovLStrv2{{t{Variable {0} going out of scope leaks the storage it points to.}{{code{info}}}}}}</description>
+<line>738</line>
+</event>
+<extra>info</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>RESOURCE_LEAK</checker>
+<type>resource_leak</type>
+<subtype>memory</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/inet.c</file>
+<function>init_conn</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{!inet_pool}}}}}}</description>
+<line>175</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{bind_addr}}}}}}</description>
+<line>192</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>195</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>213</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{fd == -1}}}}}}</description>
+<line>217</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{port != 0}}}}}}</description>
+<line>231</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>open_fn</tag>
+<description>{CovLStrv2{{t{Returning handle opened by {0}.}{{code{socket}}}}}}</description>
+<line>253</line>
+</event>
+<event>
+<tag>var_assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = handle returned from {1}.}{{code{fd}}}{{code{socket(addr_family, 1, tcp_proto)}}}}}}</description>
+<line>253</line>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{port != 0}}}}}}</description>
+<line>256</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{fd == -1}}}}}}</description>
+<line>278</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>290</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>noescape</tag>
+<description>{CovLStrv2{{t{Resource {0} is not freed or pointed-to in {1}.}{{code{fd}}}{{code{setsockopt}}}}}}</description>
+<line>293</line>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{setsockopt(fd, 65535, 4, (void *)&amp;one, 4U /* sizeof (one) */) &lt; 0}}}}}}</description>
+<line>293</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>297</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>noescape</tag>
+<description>{CovLStrv2{{t{Resource {0} is not freed or pointed-to in {1}.}{{code{fd}}}{{code{setsockopt}}}}}}</description>
+<line>300</line>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{setsockopt(fd, 65535, 8, (void *)&amp;one, 4U /* sizeof (one) */) &lt; 0}}}}}}</description>
+<line>300</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>304</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{pr_netaddr_set_family(&amp;na, addr_family) &lt; 0}}}}}}</description>
+<line>307</line>
+<path_event></path_event>
+</event>
+<event>
+<main>true</main>
+<tag>leaked_handle</tag>
+<description>{CovLStrv2{{t{Returning without closing handle {0} leaks it.}{{code{fd}}}}}}</description>
+<line>309</line>
+</event>
+<extra>fd</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>RESOURCE_LEAK</checker>
+<type>resource_leak</type>
+<subtype>memory</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/utils/ftptop.c</file>
+<function>process_opts</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{(optc = getopt(argc, argv, prgopts)) != -1}}}}}}</description>
+<line>296</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>switch</tag>
+<description>{CovLStrv2{{t{Switch case value {0}.}{{code{83}}}}}}</description>
+<line>297</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>switch_case</tag>
+<description>{CovLStrv2{{t{Reached case {0}.}{{code{83}}}}}}</description>
+<line>312</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>alloc_fn</tag>
+<description>{CovLStrv2{{t{Storage is returned from allocation function {0}.}{{code{strdup}}}}}}</description>
+<line>313</line>
+</event>
+<event>
+<tag>var_assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = storage returned from {1}.}{{code{server_name}}}{{code{strdup(optarg)}}}}}}</description>
+<line>313</line>
+</event>
+<event>
+<tag>break</tag>
+<description>{CovLStrv2{{t{Breaking from switch.}}}}</description>
+<line>314</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>switch_end</tag>
+<description>{CovLStrv2{{t{Reached end of switch.}}}}</description>
+<line>368</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop</tag>
+<description>{CovLStrv2{{t{Jumping back to the beginning of the loop.}}}}</description>
+<line>369</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>loop_begin</tag>
+<description>{CovLStrv2{{t{Jumped back to beginning of loop.}}}}</description>
+<line>296</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{(optc = getopt(argc, argv, prgopts)) != -1}}}}}}</description>
+<line>296</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>switch</tag>
+<description>{CovLStrv2{{t{Switch case value {0}.}{{code{83}}}}}}</description>
+<line>297</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>switch_case</tag>
+<description>{CovLStrv2{{t{Reached case {0}.}{{code{83}}}}}}</description>
+<line>312</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<main>true</main>
+<tag>overwrite_var</tag>
+<description>{CovLStrv2{{t{Overwriting {0} in {1} leaks the storage that {2} points to.}{{code{server_name}}}{{code{server_name = strdup(optarg)}}}{{code{server_name}}}}}}</description>
+<line>313</line>
+</event>
+<extra>server_name</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>RESOURCE_LEAK</checker>
+<type>resource_leak</type>
+<subtype>memory</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/utils/scoreboard.c</file>
+<function>util_scoreboard_scrub</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{verbose}}}}}}</description>
+<line>272</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>open_fn</tag>
+<description>{CovLStrv2{{t{Returning handle opened by {0}.}{{code{open}}}}}}</description>
+<line>279</line>
+</event>
+<event>
+<tag>var_assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = handle returned from {1}.}{{code{fd}}}{{code{open(util_get_scoreboard(), 2)}}}}}}</description>
+<line>279</line>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{fd &lt; 0}}}}}}</description>
+<line>280</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>282</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>noescape</tag>
+<description>{CovLStrv2{{t{Resource {0} is not freed or pointed-to in {1}.}{{code{fd}}}{{code{fcntl}}}}}}</description>
+<line>292</line>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{fcntl(fd, 9, &amp;lock) &lt; 0}}}}}}</description>
+<line>292</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{*__error() == 4}}}}}}</description>
+<line>293</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>295</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<main>true</main>
+<tag>leaked_handle</tag>
+<description>{CovLStrv2{{t{Handle variable {0} going out of scope leaks the handle.}{{code{fd}}}}}}</description>
+<line>297</line>
+</event>
+<extra>fd</extra>
+<subcategory>none</subcategory>
+</error>

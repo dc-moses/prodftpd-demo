@@ -1,0 +1,1420 @@
+{
+  "header" : {
+    "format" : "commit preview report",
+    "version" : 2
+  },
+  "analysisInfo" : {
+    "ownerAssignmentRule" : "default_component_owner",
+    "comparisonSnapshotId" : null,
+    "reportTimestamp" : "2022-03-04T13:21:02.065Z",
+    "user" : "admin",
+    "command" : "cov-analyze --dir idir"
+  },
+  "issueInfo" : [ {
+    "cid" : 358252,
+    "mergeKey" : "5b5b518d4ce95dba17d27df72850d026",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_peek",
+      "extra" : "datapeek_s",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1388,
+      "mainEventDescription" : "Passing null pointer \"datapeek_s\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_peek",
+      "extra" : "datapeek_s",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1389,
+      "mainEventDescription" : "Dereferencing null pointer \"datapeek_s\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358228,
+    "mergeKey" : "3f8d99f2b598dbb4cce0af2c1bef3d34",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "dv",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "deref_constant_null",
+      "mainEventLineNumber" : 1983,
+      "mainEventDescription" : "Passing null pointer \"dv\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "dv",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "deref_constant_null",
+      "mainEventLineNumber" : 1989,
+      "mainEventDescription" : "Passing null pointer \"dv\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "dv",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "deref_constant_null",
+      "mainEventLineNumber" : 1994,
+      "mainEventDescription" : "Passing null pointer \"dv\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "dv",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "deref_constant_null",
+      "mainEventLineNumber" : 2049,
+      "mainEventDescription" : "Passing null pointer \"dv\" to \"tpl_serlen\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "dv",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1983,
+      "mainEventDescription" : "Passing null pointer \"dv\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "dv",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1989,
+      "mainEventDescription" : "Passing null pointer \"dv\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "dv",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1994,
+      "mainEventDescription" : "Passing null pointer \"dv\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "dv",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2009,
+      "mainEventDescription" : "Passing null pointer \"dv\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "dv",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2049,
+      "mainEventDescription" : "Passing null pointer \"dv\" to \"tpl_serlen\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "dv",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2051,
+      "mainEventDescription" : "Passing null pointer \"dv\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358253,
+    "mergeKey" : "e36d059f069098ebfc5de0003bd2d7bd",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "str",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2002,
+      "mainEventDescription" : "Passing null pointer \"str\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "str",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2018,
+      "mainEventDescription" : "Passing null pointer \"str\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_unpack",
+      "extra" : "str",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2019,
+      "mainEventDescription" : "Dereferencing null pointer \"str\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358242,
+    "mergeKey" : "bcd5658c23757fcd560c8c14a13e98cc",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_map_va",
+      "extra" : "data,preceding",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 460,
+      "mainEventDescription" : "Passing null pointer \"preceding->data\" to \"memset\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358267,
+    "mergeKey" : "71cd22784282780fbf3e94ebe0709c6a",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_map_va",
+      "extra" : "pidx",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 500,
+      "mainEventDescription" : "Dereferencing null pointer \"pidx\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 17118,
+    "mergeKey" : "4c817854f58b6ddae9bc37f5fb7f0be7",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2020-10-27T00:22:55.925Z",
+    "occurrences" : [ {
+      "checker" : "CHECKED_RETURN",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/pr-syslog.c",
+      "function" : "pr_vsyslog",
+      "extra" : "send",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "library_function",
+      "mainEventLineNumber" : 265,
+      "mainEventDescription" : "Calling \"send(sockfd, logbuf, buflen, 0)\" without checking return value. This library function may fail and return an error code.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358229,
+    "mergeKey" : "334dbc2b2150a16c255c4adbcefd1731",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_pack",
+      "extra" : "bin",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1817,
+      "mainEventDescription" : "Dereferencing null pointer \"bin\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358257,
+    "mergeKey" : "1af9380c27885e3c227bca34deff931e",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_map_va",
+      "extra" : "np",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "deref_constant_null",
+      "mainEventLineNumber" : 447,
+      "mainEventDescription" : "Dereferencing null pointer \"np\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_map_va",
+      "extra" : "np",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "deref_constant_null",
+      "mainEventLineNumber" : 450,
+      "mainEventDescription" : "Dereferencing null pointer \"np\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358258,
+    "mergeKey" : "e240f89104cd7d35724280edd7ecbb66",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_peek",
+      "extra" : "fmt_cpy",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1327,
+      "mainEventDescription" : "Passing null pointer \"fmt_cpy\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358269,
+    "mergeKey" : "5a61fbee7eb5cc1a035cb073133ab598",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_dump",
+      "extra" : "buf",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1007,
+      "mainEventDescription" : "Passing null pointer \"buf\" to \"tpl_dump_to_mem\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_dump",
+      "extra" : "buf",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1038,
+      "mainEventDescription" : "Passing null pointer \"buf\" to \"tpl_dump_to_mem\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358255,
+    "mergeKey" : "90a3bb66a739bda286a208d4ad7ec550",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_extend_backbone",
+      "extra" : "bb,data",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 797,
+      "mainEventDescription" : "Passing null pointer \"bb->data\" to \"memset\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 17136,
+    "mergeKey" : "8ef008270750650a9d92f86f3c666272",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2020-10-27T00:22:55.925Z",
+    "occurrences" : [ {
+      "checker" : "UNINIT",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/glibc-glob.c",
+      "function" : "glob_in_dir",
+      "extra" : "names",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "pointer_deref_read",
+      "mainEventLineNumber" : 1534,
+      "mainEventDescription" : "Using uninitialized value \"names->next\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358260,
+    "mergeKey" : "498b5b6ad566f9257a31bd8c9320f32b",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_gather_mem",
+      "extra" : "gs",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2449,
+      "mainEventDescription" : "Dereferencing null pointer \"*gs\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_gather_mem",
+      "extra" : "gs",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2456,
+      "mainEventDescription" : "Dereferencing null pointer \"*gs\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358232,
+    "mergeKey" : "e2521a0230141976ae3375c38a502c24",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_gather_blocking",
+      "extra" : "img",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2253,
+      "mainEventDescription" : "Passing null pointer \"*img\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 17138,
+    "mergeKey" : "294d7e7ebedb09ed23e364bd00dc7631",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2020-10-27T00:22:55.925Z",
+    "occurrences" : [ {
+      "checker" : "CHECKED_RETURN",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/pr-syslog.c",
+      "function" : "pr_openlog",
+      "extra" : "fcntl",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "library_function",
+      "mainEventLineNumber" : 326,
+      "mainEventDescription" : "Calling \"fcntl(sockfd, 2, 1)\" without checking return value. This library function may fail and return an error code.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 17139,
+    "mergeKey" : "c83b899324ee7e94118284466e5239b1",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2020-10-27T00:22:55.925Z",
+    "occurrences" : [ {
+      "checker" : "OVERRUN",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/pr-syslog.c",
+      "function" : "pr_vsyslog",
+      "extra" : "logbuf",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 265,
+      "mainEventDescription" : "Overrunning array \"logbuf\" of 1024 bytes by passing it to a function which accesses it at byte offset 1024 using argument \"buflen\" (which evaluates to 1025).",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358262,
+    "mergeKey" : "627fd35abc598bbda195036ee4fc3823",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "OVERRUN",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_map_va",
+      "extra" : "contig_fxlens",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "write",
+      "mainEventLineNumber" : 427,
+      "mainEventDescription" : "Overrunning array \"contig_fxlens\" of 10 4-byte elements at element index 10 (byte offset 43) using index \"num_contig_fxlens++\" (which evaluates to 10).",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358275,
+    "mergeKey" : "dba3ea04488c1be99f49499bf34cd155",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_pack",
+      "extra" : "str",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1812,
+      "mainEventDescription" : "Passing null pointer \"str\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_pack",
+      "extra" : "str",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1846,
+      "mainEventDescription" : "Passing null pointer \"str\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358276,
+    "mergeKey" : "daaa48d7623054ddfa3601030e10f753",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_pack",
+      "extra" : "child,data",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 1872,
+      "mainEventDescription" : "Dereferencing null pointer \"child->data\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358235,
+    "mergeKey" : "11d9edc63db9268750a17d90e8fb3650",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_extend_backbone",
+      "extra" : "bb",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 798,
+      "mainEventDescription" : "Dereferencing null pointer \"bb\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358277,
+    "mergeKey" : "2d972380c18c48f7debcdc23df0fddb4",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_gather_mem",
+      "extra" : "gs,img,len",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2408,
+      "mainEventDescription" : "Passing null pointer \"img + (*gs)->len\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358278,
+    "mergeKey" : "4d2dba828d059c580cc8c0bc34ebd74d",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_node_new",
+      "extra" : "n",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 261,
+      "mainEventDescription" : "Dereferencing null pointer \"n\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358237,
+    "mergeKey" : "b9bbf4a664b61beccb02af7565028c38",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_map_va",
+      "extra" : "data,n",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 398,
+      "mainEventDescription" : "Dereferencing null pointer \"n->data\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_map_va",
+      "extra" : "data,n",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 486,
+      "mainEventDescription" : "Dereferencing null pointer \"n->data\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_map_va",
+      "extra" : "data,n",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 506,
+      "mainEventDescription" : "Dereferencing null pointer \"n->data\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358238,
+    "mergeKey" : "09e8caf08279fdfeab0cc75073b188c5",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_map_va",
+      "extra" : "data,root",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 333,
+      "mainEventDescription" : "Passing null pointer \"root->data\" to \"memset\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358239,
+    "mergeKey" : "8cf811f1716248b90ec0e987685cfed2",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_map_va",
+      "extra" : "data,np",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 453,
+      "mainEventDescription" : "Passing null pointer \"np->data\" to \"memset\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358236,
+    "mergeKey" : "0e647f512335ac803747ed5c91d82a80",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_gather_nonblocking",
+      "extra" : "gs,img,len",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2323,
+      "mainEventDescription" : "Passing null pointer \"img + (*gs)->len\" to \"memcpy\", which dereferences it.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358241,
+    "mergeKey" : "faa7873f3b660f187f80ad2463c0b585",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_free_keep_map",
+      "extra" : "c,data",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 637,
+      "mainEventDescription" : "Dereferencing null pointer \"c->data\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358266,
+    "mergeKey" : "deca9e5b30086a961b8cdf747298764b",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_gather_nonblocking",
+      "extra" : "gs",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2364,
+      "mainEventDescription" : "Dereferencing null pointer \"*gs\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    }, {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_gather_nonblocking",
+      "extra" : "gs",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 2371,
+      "mainEventDescription" : "Dereferencing null pointer \"*gs\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 358268,
+    "mergeKey" : "c9c6332336cd1e1e79186365fd200020",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2022-03-04T12:36:12.020Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/tpl.c",
+      "function" : "tpl_map_va",
+      "extra" : "pd",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 440,
+      "mainEventDescription" : "Dereferencing null pointer \"pd\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 17165,
+    "mergeKey" : "2bed8f150a1ccc83000fe1a7b2475183",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2020-10-27T00:22:55.925Z",
+    "occurrences" : [ {
+      "checker" : "OVERRUN",
+      "file" : "/Users/dylanm/Projects/proftpd-1.3.5/lib/glibc-glob.c",
+      "function" : "glob_limited",
+      "extra" : "__builtin_alloca",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 786,
+      "mainEventDescription" : "Allocating insufficient memory for the terminating null of the string.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "CVSS_Severity" : "None",
+      "Confidence" : "Unknown",
+      "CVSS_Vector" : null,
+      "MISRA Status" : "Unknown",
+      "CVSS_Audited" : "No",
+      "CVSS_Score" : null
+    },
+    "ownerLdapServerName" : null
+  } ]
+}

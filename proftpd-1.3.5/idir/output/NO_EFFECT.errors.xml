@@ -1,0 +1,67 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NO_EFFECT</checker>
+<type>no_effect</type>
+<subtype>unsigned_compare</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_delay.c</file>
+<function>delay_select_k</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>unsigned_compare</tag>
+<description>{CovLStrv2{{t{This greater-than-or-equal-to-zero comparison of an unsigned value is always true. {0}.}{{code{j &gt;= 0UL}}}}}}</description>
+<line>189</line>
+</event>
+<extra></extra>
+<subcategory>unsigned_compare</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NO_EFFECT</checker>
+<type>no_effect</type>
+<subtype>unsigned_compare</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/modules/mod_facts.c</file>
+<function>facts_modify_mtime</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>unsigned_compare</tag>
+<description>{CovLStrv2{{t{This less-than-zero comparison of an unsigned value is never true. {0}.}{{code{hour &lt; 0U}}}}}}</description>
+<line>696</line>
+</event>
+<event>
+<tag>unsigned_compare</tag>
+<description>{CovLStrv2{{t{This less-than-zero comparison of an unsigned value is never true. {0}.}{{code{min &lt; 0U}}}}}}</description>
+<line>710</line>
+</event>
+<event>
+<tag>unsigned_compare</tag>
+<description>{CovLStrv2{{t{This less-than-zero comparison of an unsigned value is never true. {0}.}{{code{sec &lt; 0U}}}}}}</description>
+<line>721</line>
+</event>
+<extra></extra>
+<subcategory>unsigned_compare</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NO_EFFECT</checker>
+<type>no_effect</type>
+<subtype>unsigned_compare</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/str.c</file>
+<function>pr_str_get_duration</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>unsigned_compare</tag>
+<description>{CovLStrv2{{t{This less-than-zero comparison of an unsigned value is never true. {0}.}{{code{secs &lt; 0U}}}}}}</description>
+<line>599</line>
+</event>
+<extra></extra>
+<subcategory>unsigned_compare</subcategory>
+</error>

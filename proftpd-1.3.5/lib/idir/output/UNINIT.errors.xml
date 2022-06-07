@@ -1,0 +1,159 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>UNINIT</checker>
+<type>uninit</type>
+<subtype>pointer_deref_read</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/lib/glibc-glob.c</file>
+<function>glob_in_dir</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{!(flags &amp; (64 /* 1 &lt;&lt; 6 */))}}}}}}</description>
+<line>1322</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{meta == 0}}}}}}</description>
+<line>1323</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{flags &amp; (2064 /* (1 &lt;&lt; 4) | (1 &lt;&lt; 11) */)}}}}}}</description>
+<line>1323</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>else_branch</tag>
+<description>{CovLStrv2{{t{Reached else branch.}}}}</description>
+<line>1331</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{meta == 0}}}}}}</description>
+<line>1331</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{flags &amp; (64 /* 1 &lt;&lt; 6 */)}}}}}}</description>
+<line>1331</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{strchr(pattern, 92) == NULL}}}}}}</description>
+<line>1331</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>else_branch</tag>
+<description>{CovLStrv2{{t{Reached else branch.}}}}</description>
+<line>1363</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{pattern[0] == 0}}}}}}</description>
+<line>1364</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>alloc_fn</tag>
+<description>{CovLStrv2{{t{Calling {0} which returns uninitialized memory.}{{code{__builtin_alloca}}}}}}</description>
+<line>1368</line>
+</event>
+<event>
+<tag>assign</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {1}, which points to uninitialized data.}{{code{names}}}{{code{(glob_in_dir::globlink (instance 3) *)__builtin_alloca(16UL)}}}}}}</description>
+<line>1368</line>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{names-&gt;name == NULL}}}}}}</description>
+<line>1370</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>goto</tag>
+<description>{CovLStrv2{{t{Jumping to label {0}.}{{code{memory_error}}}}}}</description>
+<line>1371</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>label</tag>
+<description>{CovLStrv2{{t{Reached label {0}.}{{code{memory_error}}}}}}</description>
+<line>1521</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{flags &amp; (512 /* 1 &lt;&lt; 9 */)}}}}}}</description>
+<line>1524</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>if_fallthrough</tag>
+<description>{CovLStrv2{{t{Falling through to end of if statement.}}}}</description>
+<line>1525</line>
+<path_event>
+<jump>true</jump>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1527</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>cond_true</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking true branch.}{{code{names != NULL}}}}}}</description>
+<line>1530</line>
+<path_event></path_event>
+</event>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{names-&gt;name != NULL}}}}}}</description>
+<line>1532</line>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>1533</line>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<main>true</main>
+<tag>uninit_use</tag>
+<description>{CovLStrv2{{t{Using uninitialized value {0}.}{{code{names-&gt;next}}}}}}</description>
+<line>1534</line>
+</event>
+<extra>names</extra>
+<subcategory>pointer_deref_read</subcategory>
+</error>

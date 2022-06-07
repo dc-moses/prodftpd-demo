@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>23</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>cov-build --dir idir make all</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>snps-keszocovkcat</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>macosx</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Darwin 20.6.0 x86_64</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>2021.9.0 (build fd8aadda49 p-2021.9-push-681)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>dylanm</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>/Users/dylanm/Projects/proftpd-1.3.5/lib</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>/Applications/cov-analysis-macosx-2021.9.0/config/coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>/Users/dylanm/Projects/proftpd-1.3.5/lib/idir</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>/Users/dylanm/Projects/proftpd-1.3.5/lib/idir/output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>/Users/dylanm/Projects/proftpd-1.3.5/lib/idir/emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>10</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value>make all</value>
+    </metric>
+</metrics>
+</coverity>

@@ -1,0 +1,48 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>MISSING_BREAK</checker>
+<type>missing_break</type>
+<subtype>logic_error</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/src/dirtree.c</file>
+<function>login_check_limits</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>unterminated_case</tag>
+<description>{CovLStrv2{{t{The case for value {0} is not terminated by a {code{break}} statement.}{{code{1}}}}}}</description>
+<line>1491</line>
+</event>
+<event>
+<tag>fallthrough</tag>
+<description>{CovLStrv2{{t{The above case falls through to this one.}}}}</description>
+<line>1494</line>
+</event>
+<extra>1</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>MISSING_BREAK</checker>
+<type>missing_break</type>
+<subtype>logic_error</subtype>
+<file>/Users/dylanm/Projects/proftpd-1.3.5/utils/ftpshut.c</file>
+<function>main</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>unterminated_case</tag>
+<description>{CovLStrv2{{t{The case for value {0} is not terminated by a {code{break}} statement.}{{code{63}}}}}}</description>
+<line>99</line>
+</event>
+<event>
+<tag>fallthrough</tag>
+<description>{CovLStrv2{{t{The above case falls through to this one.}}}}</description>
+<line>102</line>
+</event>
+<extra>63</extra>
+<subcategory>none</subcategory>
+</error>
